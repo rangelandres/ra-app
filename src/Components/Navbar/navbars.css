@@ -1,0 +1,70 @@
+/* RESUME-HEADER*/
+li :hover, li :visited, li :link, li :active, li :focus
+{
+    text-decoration: none;
+}
+
+li :visited {text-decoration: none; color:darkblue; }
+li :hover { text-decoration: none; color:orange; }
+
+li {
+	font-family: 'Roboto', sans-serif;	
+	width: 100%;
+}
+
+
+.nav-container{
+	z-index: 10;
+}
+
+/*TOP NAV*/	
+.top-nav {
+	position: fixed;
+	width: 100vw;
+	padding-left: 12vw;
+	top: 5vh;
+}
+.top-nav li {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.logo{
+	width: 3.5%;
+	border-radius: 100%;
+	padding: 2px;
+	background-color: rgba(255, 255, 255, 0.349);  
+}
+
+	
+/*SIDE NAV*/	
+.side-nav {
+  list-style: none;
+	margin-top: 20vh;
+  position: fixed;
+  right: 12.5%;
+  transform: rotate(90deg);
+  transform-origin: 100% 100%;
+}
+
+@media only screen and (max-width: 1024px) {   
+	.logo{
+		width: 7%;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {   
+
+}
+
+@media only screen and (max-width: 600px) {   
+
+	.logo{
+		width: 11%;
+	}
+
+} 
+
+

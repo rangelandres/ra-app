@@ -1,0 +1,59 @@
+/* RESUME-HEADER*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300i');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	font-family: 'Roboto', sans-serif;	
+}
+
+.nav-container{
+	z-index: 10;
+}
+
+/*TOP NAV*/	
+.top-nav {
+	position: fixed;
+	width: 100vw;
+	padding-left: 12.5vw;
+	top: 5vh;
+}
+.top-nav li {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+	
+/*SIDE NAV*/	
+.side-nav {
+	position: fixed;
+	width: 100vh;
+	bottom: 0;
+	right: 12.5vw;
+	transform: rotate(90deg);
+	transform-origin: 100% 100%;
+}
+.side-nav li {
+	display: inline-block;
+	padding-left: 12.5vh;
+
+}
+	
+/*BOTTOM NAV*/
+.bottom-nav {
+	position: fixed;
+	width: 100vw;
+	bottom: 5vh;
+	padding-left: 12.5vw;
+
+}
+
+.bottom-nav li {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
