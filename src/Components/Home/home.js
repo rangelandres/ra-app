@@ -1,9 +1,12 @@
 import React  from 'react';
 import Animation from './Animation/animation'
 import Footer from './Footer/footer'
+
 import './home.css';
-import Projects from './Projects/projects';
+import UIUX from './Projects/uiux';
+import Print from './Projects/print';
 import Zoom from 'react-reveal/Zoom';
+import Graphic from './Projects/graphic';
 
 
 
@@ -65,8 +68,9 @@ const Home = () => (
             </div>
         </div>
 
-        <Projects/>
-     
+        <UIUX/>
+        <Print/>
+        <Graphic/>
         <Footer/>
 
 
