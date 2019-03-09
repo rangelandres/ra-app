@@ -70,12 +70,7 @@
     .hero-text-container{
         margin-left: 19%;
     }
-}
-  
-  @media only screen and (max-width: 768px) {   
 
-  }
-  
   @media only screen and (max-width: 600px) {
     .social-icon{
         width: 8%;
