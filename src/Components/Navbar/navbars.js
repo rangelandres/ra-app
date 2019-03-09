@@ -6,8 +6,9 @@ const Navbars = () => (
 
     <div className ="nav-container">
 
-        <ul className="top-nav">
-            <li><Link to="/">
+        <div className="top-nav">
+            <div>
+            <Link to="/">
                 <div className="logo">
                     <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'>
                         <g id='Layer_15' data-name='Layer 15'>
@@ -19,9 +20,10 @@ const Navbars = () => (
                         </g>
                     </svg>
                 </div>
-            </Link></li>
+            </Link>
+            </div>
         
-        </ul>
+        </div>
 
         <ul className="side-nav">
             <li><h3><Link to="/resume">resume</Link></h3></li>
