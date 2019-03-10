@@ -26,9 +26,9 @@ class Graphic extends Component {
             </div>
 
             <div className="button-container">
-                <a className="button" id="g-button">
+                <button className="button" id="g-button">
                     <h2 className="button-text" id="g-text">VIEW</h2>
-                </a>
+                </button>
             </div>
 
         </div>

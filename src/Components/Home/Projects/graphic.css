@@ -13,6 +13,8 @@
     padding-bottom: 25vh;
     position: sticky;
     top: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
   
 .graphic{

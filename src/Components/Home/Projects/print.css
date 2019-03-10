@@ -13,6 +13,8 @@
   padding-bottom: 25vh;
   position: sticky;
   top: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .print{
@@ -56,6 +58,13 @@
 #mag{
   position: absolute;
   width: 100vh;
+}
+
+.test{
+  position: absolute;
+  height:40vh;
+  width: 100vw;
+  background-color: black;
 }
 
 @media only screen and (max-width: 1024px) {

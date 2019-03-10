@@ -29,9 +29,9 @@ class UIUX extends Component {
             </div>
 
             <div className="button-container">
-                <a className="button" id="uiux-button">
+                <button className="button" id="uiux-button">
                     <h2 className="button-text">VIEW</h2>
-                </a>
+                </button>
             </div>
 
         </div>
@@ -39,3 +39,5 @@ class UIUX extends Component {
   }
 }
 export default UIUX;
+
+
