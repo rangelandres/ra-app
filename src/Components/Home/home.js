@@ -13,12 +13,13 @@ import Graphic from './Projects/graphic';
 const Home = () => (
 
     <div className="home">
-
+        <div className="frame"></div>
         <div className="hero-container">
             <Animation/>
             <Zoom fraction={.4}>
 
             <div className="hero-text-container">
+            
                 <div className="hero-text">
                     <h1>hello,</h1>
                     <h1>my name is Andres!</h1>

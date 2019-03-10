@@ -22,6 +22,8 @@ li {
 	width: 100vw;
 	padding-left: 12vw;
 	top: 5vh;
+	z-index: 10;
+
 }
 
 .logo{
@@ -38,7 +40,9 @@ li {
   position: fixed;
   right: 12.5%;
   transform: rotate(90deg);
-  transform-origin: 100% 100%;
+	transform-origin: 100% 100%;
+	z-index: 10;
+
 }
 
 @media only screen and (max-width: 1024px) {   
