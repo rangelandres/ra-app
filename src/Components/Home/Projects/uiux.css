@@ -107,13 +107,13 @@
 
 @media only screen and (max-width: 600px) {
     .button-container{
-        margin-top: 35vh;
+        margin-top: 30vh;
     }
     #phone{
-        width: 100vw;
+        width: 99vw;
     }
     #gif{
-        width: 100.5vw;
+        width: 99.5vw;
     }
     .r-title-container{
         width: 95vw;

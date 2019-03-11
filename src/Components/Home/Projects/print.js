@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './print.css';
-
+import PrintProjs from './print-projs';
 import Mag from './mag.png';
 
 
@@ -41,9 +41,9 @@ class Print extends Component {
                 }
 
                 {this.state.on && 
-                    <div className="test">
-                    <h1>Hello</h1>
-                    </div>
+                <div className="container">
+                    <PrintProjs/>
+                </div>    
                 }
 
                 {this.state.on3 &&
