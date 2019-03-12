@@ -28,8 +28,6 @@ class Print extends Component {
             <div className="print-container">
 
                 {this.state.on2 && 
-
-            
                 <div className="print">
                     <div className="print-title-container">
                         <h1 className="print-title">PRINT</h1>
