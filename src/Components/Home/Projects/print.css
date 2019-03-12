@@ -16,6 +16,7 @@
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   z-index: 3;
+  margin: 0 auto;
 }
 
 .print{
@@ -61,15 +62,9 @@
   width: 100vh;
 }
 
-.test{
-  position: absolute;
-  height:40vh;
-  width: 100vw;
-  background-color: black;
-}
 
 .container{
-  width: 70vw;
+  width: 85%;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -86,16 +81,24 @@
 
   #mag{width: 65vh;}
 
-  .print{height: 80vh;}
+  .print{height: 70vh;}
 
   .print-title{font-size: 15em;}
 }
 
 @media only screen and (max-width: 600px) {
 
-  #mag{width: 98vw;}
+  #mag{width: 45vh;}
 
   .print{height: 50vh;}
 
-  .print-title{font-size: 7em;}
+  .print-title{font-size: 6em;}
+}
+
+@media only screen and (max-width: 320px) {
+
+  #mag{width: 35vh;}
+
+  .print{height: 40vh;}
+
 }

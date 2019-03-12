@@ -16,6 +16,8 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     z-index: 4;
+    margin: 0 auto;
+
 }
   
 .graphic{
@@ -68,21 +70,21 @@
     #cpu{width: 50vh;}
   }
   
-  @media only screen and (max-width: 768px) {
+ @media only screen and (max-width: 768px) {
 
     .graphic-title{font-size: 10em}
 
     #title2{font-size: 12em}
 
     #cpu{width: 50vh;}
-  }
+}
   
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     
-    .graphic-title{font-size: 5em}
+    .graphic-title{font-size: 4em}
 
-    #title2{font-size: 6em}
+    #title2{font-size: 5em}
 
     #cpu{width: 65vw;}
 
-  }
+}

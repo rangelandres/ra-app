@@ -16,6 +16,9 @@
   -webkit-overflow-scrolling: touch;
 }
 
+button:focus {outline:0;}
+div:focus {outline:0;}
+
 body {
   margin: 0;
   padding: 0;
@@ -54,4 +57,3 @@ p {
   font-size: 1.1em;
 
 }
-

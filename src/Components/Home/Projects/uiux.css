@@ -16,6 +16,8 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     z-index: 2;
+    margin: 0 auto;
+
   }
   
 .uiux{
@@ -107,7 +109,7 @@
 
 @media only screen and (max-width: 600px) {
     .button-container{
-        margin-top: 30vh;
+        margin-top: 35vh;
     }
     #phone{
         width: 99vw;

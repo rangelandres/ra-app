@@ -24,6 +24,7 @@ a {
 .resume{
     background-color: white;
     height: 100vh;
+    position: relative;
 }
 
 .resume-container{
