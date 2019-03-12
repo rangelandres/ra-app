@@ -5,6 +5,7 @@ import Navbars from './Components/Navbar/navbars';
 import Container from './Components/Container/container';
 
 import './App.css';
+import ScrollToTop from './scroll'
 
 
 
@@ -14,10 +15,11 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
-          <div>
+          <ScrollToTop>
             <Container/>
             <Navbars/>
-          </div>
+          </ScrollToTop>
+
         </Router>
       </div>
     );

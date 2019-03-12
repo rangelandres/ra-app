@@ -14,8 +14,12 @@ function Container({ location }) {
       <TransitionGroup className="transition-group">
         <CSSTransition
           key={location.key}
-          timeout={{ enter: 300, exit: 300 }}
+          timeout={{ enter: 400, exit: 400 }}
           classNames="fade"
+          onExit={node => {
+            node.style.position = "absolute";
+            node.style.top = -1 * window.scrollY + "px";
+          }}
         >
           <section className="route-section">
             <Switch location={location}>
