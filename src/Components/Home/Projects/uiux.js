@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import ScrollLock from 'react-scrolllock';
+
 import './uiux.css';
 import UIUXProjs from './uiux-projs';
 
@@ -7,27 +9,32 @@ import Phone from './phone.png';
 
 
 class UIUX extends Component {
-    
-    state = {
-        on: false,
-        on2: true,
-        on3: true,
+
+    constructor(props) {
+        super(props)
+
+        this.toggle = this.toggle.bind(this);
+
+        this.state = {
+            on: true,
+            on2: false,
+            lockScroll: false 
+        };
     }
 
-    toggle = () =>{
+    toggle(){
         this.setState({
             on: !this.state.on,
-            on2: !this.state.on3,
-            on3: !this.state.on3
-
-        })
+            on2: !this.state.on2,
+            lockScroll: !this.state.lockScroll 
+        });
     }
 
     render(){
         return (
             <div className="uiux-container">
-            
-                {this.state.on2 && 
+
+                {this.state.on &&
                 <div className="uiux">
                     <div className="title-container">
                         <h1 className="title">UI</h1>
@@ -41,22 +48,26 @@ class UIUX extends Component {
                     <img id="gif" src={UI} alt="UI" />
                 </div>
                 }
-        
-                {this.state.on && 
+
+                {this.state.on2 && 
                 <div className="container">
-                    <UIUXProjs/>
-                </div>    
-                }
-                
-                {this.state.on3 &&
-                    <div className="button-container">
-                        <button onClick={this.toggle} className="button" id="uiux-button">
-                            <h2 className="button-text">VIEW</h2>
-                        </button>
-                    </div>
+                    <UIUXProjs action={this.toggle}/>   
+                </div>
                 }
 
+
+                {this.state.on &&
+                <div className="button-container">
+                    <button onClick={this.toggle} className="button" id="uiux-button">
+                        <h2 className="button-text">VIEW</h2>
+                    </button>
+                </div>
+                }
+
+                <ScrollLock isActive={this.state.lockScroll} />
+
             </div>
+
         );
     }
 }

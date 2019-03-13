@@ -1,45 +1,45 @@
 import React, { Component } from 'react';
+
 import Slider from "react-slick";
 import Zoom from 'react-reveal/Zoom';
 
 import './slider.css';
 
-
 class UIUXProjs extends Component {
 
 
     render() {
-        var settings = {
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            initialSlide: 0,
-            responsive: [
-              {
-                breakpoint: 1024,
-                settings: {
-                  slidesToShow: 2,
-                  slidesToScroll: 2,
+      var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        initialSlide: 0,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
 
-                }
-              },
-              {
-                breakpoint: 600,
-                settings: {
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-                }
-              },
-              {
-                breakpoint: 480,
-                settings: {
-                  slidesToShow: 1,
-                  slidesToScroll: 1
-                }
-              }
-            ]
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
           };
         return (
       <div>
@@ -49,6 +49,7 @@ class UIUXProjs extends Component {
                 <div className="slider">
                     <div className="a-slide">
                         <h1>PROJ1</h1>
+
                     </div>
                 </div>
             </Zoom>
@@ -98,6 +99,13 @@ class UIUXProjs extends Component {
           </div>
 
         </Slider>
+
+        <div>
+          <button onClick={this.props.action} className="button">
+              <h2 className="button-text">EXIT</h2>
+            </button>
+        </div>
+  
       </div>
           );
     }

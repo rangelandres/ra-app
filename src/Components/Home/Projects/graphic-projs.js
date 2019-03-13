@@ -98,6 +98,13 @@ class GraphicProjs extends Component {
           </div>
 
         </Slider>
+
+        <div>
+          <button onClick={this.props.action} className="button">
+              <h2 className="button-text">EXIT</h2>
+            </button>
+        </div>
+
       </div>
           );
     }
