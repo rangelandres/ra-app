@@ -99,9 +99,9 @@ class PrintProjs extends Component {
 
         </Slider>
 
-        <div>
-          <button onClick={this.props.action} className="button">
-              <h2 className="button-text">EXIT</h2>
+        <div className="b-container">
+          <button onClick={this.props.action} className="button" id="b-color">
+              <h2 className="button-text" id="bt-color">EXIT</h2>
             </button>
         </div>
 

@@ -14,6 +14,7 @@ function Container({ location }) {
       <TransitionGroup className="transition-group">
         <CSSTransition
           key={location.key}
+          unmountOnExit
           timeout={{ enter: 400, exit: 400 }}
           classNames="fade"
           onExit={node => {

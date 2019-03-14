@@ -100,7 +100,7 @@ class UIUXProjs extends Component {
 
         </Slider>
 
-        <div>
+        <div className="b-container">
           <button onClick={this.props.action} className="button">
               <h2 className="button-text">EXIT</h2>
             </button>

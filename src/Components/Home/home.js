@@ -9,7 +9,6 @@ import UIUX from './Projects/uiux';
 import Print from './Projects/print';
 import Graphic from './Projects/graphic';
 
-import UIUXProjs from './Projects/uiux-projs';
 
 
 

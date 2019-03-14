@@ -21,22 +21,9 @@
     border-radius: 3px;
 }
 
-.uiux-container2{
-    height: 100vh;
+.b-container{
     width: 100%;
-    box-shadow: 0px -8px 8px 0px rgba(0,0,0,0.15);
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: #8242AA;
-    padding-bottom: 25vh;
-    position: fixed;
-    top: 0px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    z-index: 2;
-    margin: 0 auto;
-    
-  }
+    margin-top: 5vh;
+}
