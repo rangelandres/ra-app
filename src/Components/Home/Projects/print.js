@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import ScrollLock from 'react-scrolllock';
 
 import './print.css';
-import PrintProjs from './print-projs';
-import Mag from './mag.png';
+import PrintProjs from './print-projs/print-projs';
+import Mag from './imgs-projs/mag.png';
 
 
 class Print extends Component {

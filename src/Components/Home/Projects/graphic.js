@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import ScrollLock from 'react-scrolllock';
 
 
-import GraphicProjs from './graphic-projs';
+import GraphicProjs from './graphic-projs/graphic-projs';
 
 import './graphic.css';
 
-import CPU from './cpu.png';
-import CPU2 from './cpu-gif.gif';
+import CPU from './imgs-projs/cpu.png';
+import CPU2 from './imgs-projs/gif-cpu.gif';
 
 
 class Graphic extends Component {

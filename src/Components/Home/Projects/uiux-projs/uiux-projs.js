@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 import Slider from "react-slick";
 import Zoom from 'react-reveal/Zoom';
 
-import './slider.css';
+import '../slider.css';
 
-import logo from './uiux-projs/logo.png';
-import errorLogo from './uiux-projs/error-logo.png';
+import logo from './logo.png';
+import errorLogo from './logo-error.png';
 
 class UIUXProjs extends Component {
 
@@ -143,7 +143,27 @@ class UIUXProjs extends Component {
 
                 <div className="slider">
                     <div className="a-slide">
-                        <h1>PROJ4</h1>
+                      <div className="slide-img" id="uiux-proj4">
+                        <div className="slide-overlay">
+                          <div className="proj-logo-container">
+                            <div>
+                            <img id="logo" src={errorLogo} alt="UI" />
+                            </div>
+                          </div>
+                          <div className="pro-title-container">
+                            <h1>lighthouse</h1>
+                          </div>
+                          <div className="proj-description-container">
+                            <p>A responsive infographic designed for the web conveying net neutrality facts.
+                          </p>
+                          </div>
+                          <div className="proj-button-container">
+                            <button className="proj-button">
+                              <h2 className="button-text">VIEW</h2>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                 </div>
             </Zoom>

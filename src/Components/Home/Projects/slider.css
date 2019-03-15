@@ -54,7 +54,7 @@
     height:100%;
     width: 100%;
     border-radius: 5px;
-    background-image: url('../Projects/uiux-projs/phone.png');
+    background-image: url('../Projects/uiux-projs/cover-freestyle.png');
     background-position: center center;
 }
 
@@ -109,11 +109,17 @@
 }
 
 #uiux-proj2{
-    background-image: url('../Projects/uiux-projs/error404.png');
+    background-image: url('../Projects/uiux-projs/cover-error.png');
     background-position: center center;
 }
 
 #uiux-proj3{
-    background-image: url('../Projects/uiux-projs/pl.png');
+    background-image: url('../Projects/uiux-projs/cover-shift.png');
+    background-position: center top;
+    background-size: cover;
+}
+
+#uiux-proj4{
+    background-image: url('../Projects/uiux-projs/cover-pl.png');
     background-position: center;
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Slider from "react-slick";
 import Zoom from 'react-reveal/Zoom';
 
-import './slider.css';
+import '../slider.css';
 
 
 class PrintProjs extends Component {

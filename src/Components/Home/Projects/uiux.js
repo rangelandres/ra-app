@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import ScrollLock from 'react-scrolllock';
 
 import './uiux.css';
-import UIUXProjs from './uiux-projs';
 
-import UI from './gif-c.gif';
-import Phone from './phone.png';
+import UIUXProjs from './uiux-projs/uiux-projs';
+import UI from './imgs-projs/gif-uiux.gif';
+import Phone from './imgs-projs/phone.png';
 
 
 class UIUX extends Component {
