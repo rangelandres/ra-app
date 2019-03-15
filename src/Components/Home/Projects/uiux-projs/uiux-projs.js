@@ -120,10 +120,10 @@ class UIUXProjs extends Component {
                           </div>
                         </div>
                         <div className="pro-title-container">
-                          <h1>lighthouse</h1>
+                          <h1>shift.</h1>
                         </div>
                         <div className="proj-description-container">
-                          <p>A responsive infographic designed for the web conveying net neutrality facts.
+                          <p>Re-designed for an ecommerce site built on Shopify.
                         </p>
                         </div>
                         <div className="proj-button-container">
