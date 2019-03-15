@@ -78,12 +78,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(236, 207, 207, 0.6);
     padding: 10px 50px;
+    transition: .2s ease;
+
 }
+
 
 .button:hover{
     cursor: pointer;
+    border: solid .1px #8242AA;
+    transition: .2s ease;
 }
 
 .button-text{
@@ -92,7 +97,6 @@
     margin: 0;
     color: #8242AA;
 }
-
 
 
 @media only screen and (max-width: 1024px) {

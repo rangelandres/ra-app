@@ -5,7 +5,6 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 import Home from '../Home/home';
 import Resume from '../Resume/resume';
-import Contact from '../Contact/contact';
 
 import './container.css';
 

@@ -19,14 +19,10 @@ class Home extends Component {
         return(
             <div className="home">
                 <Hero/>
-
-             
                 <UIUX />
                 <Print />
                 <Graphic/>
                 <Footer />
-
-
             </div>
 
         );

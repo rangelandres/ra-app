@@ -73,7 +73,7 @@
 
   .print{height: 80vh;}
 
-  .print-title{font-size: 19em;}
+  .print-title{font-size: 16em;}
 }
 
 @media only screen and (max-width: 768px) {
@@ -82,7 +82,7 @@
 
   .print{height: 70vh;}
 
-  .print-title{font-size: 15em;}
+  .print-title{font-size: 12em;}
 }
 
 @media only screen and (max-width: 600px) {

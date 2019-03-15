@@ -5,6 +5,9 @@ import Zoom from 'react-reveal/Zoom';
 
 import './slider.css';
 
+import logo from './uiux-projs/logo.png';
+import errorLogo from './uiux-projs/error-logo.png';
+
 class UIUXProjs extends Component {
 
 
@@ -46,21 +49,59 @@ class UIUXProjs extends Component {
         <Slider {...settings}>
           <div>
             <Zoom>
-                <div className="slider">
-                    <div className="a-slide">
-                        <h1>PROJ1</h1>
-
+            <div className="slider">
+                  <div className="a-slide">
+                    <div className="slide-img">
+                      <div className="slide-overlay">
+                        <div className="proj-logo-container">
+                          <div>
+                            <img id="logo" src={logo} alt="UI" />
+                          </div>
+                        </div>
+                        <div className="pro-title-container">
+                          <h1>freestyle</h1>
+                        </div>
+                        <div className="proj-description-container">
+                          <p>UI/UX design for a mock app that allows users to select specific instruments
+                          from songs to create new compositions.</p>
+                        </div>
+                        <div className="proj-button-container">
+                          <button className="proj-button">
+                            <h2 className="button-text">VIEW</h2>
+                          </button>
+                        </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
             </Zoom>
           </div>
           <div>
             <Zoom delay={200}>
-
                 <div className="slider">
-                    <div className="a-slide">
-                        <h1>PROJ2</h1>
+                  <div className="a-slide">
+                    <div className="slide-img" id="uiux-proj2">
+                      <div className="slide-overlay">
+                        <div className="proj-logo-container">
+                          <div>
+                          <img id="logo" src={errorLogo} alt="UI" />
+                          </div>
+                        </div>
+                        <div className="pro-title-container">
+                          <h1>error:404</h1>
+                        </div>
+                        <div className="proj-description-container">
+                          <p>A responsive infographic designed for the web conveying net neutrality facts.
+                        </p>
+                        </div>
+                        <div className="proj-button-container">
+                          <button className="proj-button">
+                            <h2 className="button-text">VIEW</h2>
+                          </button>
+                        </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
                 </Zoom>
 
@@ -71,7 +112,27 @@ class UIUXProjs extends Component {
 
             <div className="slider">
                 <div className="a-slide">
-                    <h1>PROJ3</h1>
+                    <div className="slide-img" id="uiux-proj3">
+                      <div className="slide-overlay">
+                        <div className="proj-logo-container">
+                          <div>
+                          <img id="logo" src={errorLogo} alt="UI" />
+                          </div>
+                        </div>
+                        <div className="pro-title-container">
+                          <h1>lighthouse</h1>
+                        </div>
+                        <div className="proj-description-container">
+                          <p>A responsive infographic designed for the web conveying net neutrality facts.
+                        </p>
+                        </div>
+                        <div className="proj-button-container">
+                          <button className="proj-button">
+                            <h2 className="button-text">VIEW</h2>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
                 </div>
             </div>
             </Zoom>
@@ -100,10 +161,10 @@ class UIUXProjs extends Component {
 
         </Slider>
 
-        <div className="b-container">
-          <button onClick={this.props.action} className="button">
-              <h2 className="button-text">EXIT</h2>
-            </button>
+        <div className="exit-container">
+          <div onClick={this.props.action} className="exit-button">
+              <h2 className="button-text">X</h2>
+          </div>
         </div>
   
       </div>
