@@ -1,6 +1,6 @@
 .footer{
-    height: 20vh;
-    background-color: #7fffd4;
+    height: 40vh;
+    background-color: #157F1F;
     position: sticky;
     top: 0px;
     z-index: 4;
@@ -23,4 +23,5 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    color:white;
 }

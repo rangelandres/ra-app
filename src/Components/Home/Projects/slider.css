@@ -4,6 +4,7 @@
 
 .slick-slide{
     height:70vh;
+    margin-top: 10vh;
 }
 
 .slider{
@@ -111,6 +112,12 @@
 
 .proj-button:hover{
     cursor: pointer;
+}
+
+.slider-container{
+    height: 100vh;
+    padding-bottom: 30vh;
+    padding: 0 8vw 30vh 8vw;
 }
 
 #uiux-proj2{

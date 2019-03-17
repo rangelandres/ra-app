@@ -1,0 +1,23 @@
+.project-freestyle{
+    overflow: auto;
+    max-height: 100vh;
+    padding-bottom: 10vh;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none; 
+}
+
+.project-freestyle::-webkit-scrollbar { width: 0 !important }
+
+
+.freestyle{
+
+}
+
+.test{
+    height: 100vh;
+    background-color: white;
+}
+
+#t2{
+    background-color: brown;
+}

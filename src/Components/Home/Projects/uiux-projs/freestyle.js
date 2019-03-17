@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
+import './freestyle.css'
 
 
-
-
-
-class Fresstyle extends Component {
+class Freestyle extends Component {
 
     render(){
         return(
             <div className="freestyle">
+                <div className="test"></div>
+                <div className="test" id="t2"></div>                
             </div>
 
         );

@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import Slider from "react-slick";
 import Zoom from 'react-reveal/Zoom';
 
+import Freestyle from './freestyle';
+
 import '../slider.css';
 
 import logo from './logo.png';
@@ -11,6 +13,24 @@ import plLogo from './logo-pl.png';
 import shiftLogo from './logo-shift.png';
 
 class UIUXProjs extends Component {
+  
+constructor(props) {
+  super(props)
+
+  this.toggleUIUX = this.toggleUIUX.bind(this);
+
+  this.state = {
+      on: true,
+      fs: false
+  };
+}
+
+toggleUIUX(){
+  this.setState({
+        on: !this.state.on,
+        fs: !this.state.fs
+    });
+  }
 
 
     render() {
@@ -47,7 +67,10 @@ class UIUXProjs extends Component {
         ]
           };
         return (
-      <div>
+
+      <div className="slider-container">
+
+        {this.state.on &&
         <Slider {...settings}>
           <div>
             <Zoom>
@@ -68,7 +91,7 @@ class UIUXProjs extends Component {
                           from songs to create new compositions.</p>
                         </div>
                         <div className="proj-button-container">
-                          <button className="proj-button">
+                          <button className="proj-button"  onClick={this.toggleUIUX}>
                             <h2 className="button-text">VIEW</h2>
                           </button>
                         </div>
@@ -199,6 +222,13 @@ class UIUXProjs extends Component {
           </div>
 
         </Slider>
+        }
+
+        {this.state.fs &&
+        <div className="project-freestyle">
+          <Freestyle/>
+        </div>
+        }
 
         <div className="exit-container">
           <div onClick={this.props.action} className="exit-button">

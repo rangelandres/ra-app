@@ -42,8 +42,8 @@ class GraphicProjs extends Component {
             ]
           };
         return (
-      <div>
-        <Slider {...settings}>
+      <div className="slider-container">
+          <Slider {...settings}>
           <div>
             <Zoom>
                 <div className="slider">
