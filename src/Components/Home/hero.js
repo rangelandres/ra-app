@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import Animation from './Animation/animation'
-
 import Zoom from 'react-reveal/Zoom';
 
 
@@ -66,7 +65,11 @@ render(){
                     </div>
                 </div>
             </div>
+
         </div>
+        <div className="frame2"></div>
+
+
         </div>
 
     );

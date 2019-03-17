@@ -54,8 +54,13 @@
     height:100%;
     width: 100%;
     border-radius: 5px;
+}
+
+#uiux-proj1{
     background-image: url('../Projects/uiux-projs/cover-freestyle.png');
     background-position: center center;
+    background-size: cover;
+    background-repeat: none;
 }
 
 .slide-overlay{
@@ -115,11 +120,13 @@
 
 #uiux-proj3{
     background-image: url('../Projects/uiux-projs/cover-shift.png');
-    background-position: center top;
-    background-size: cover;
+    background-position: center;
+    background-size: 150%;
+
 }
 
 #uiux-proj4{
     background-image: url('../Projects/uiux-projs/cover-pl.png');
     background-position: center;
+    background-size: contain;
 }

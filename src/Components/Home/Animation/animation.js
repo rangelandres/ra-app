@@ -21,7 +21,6 @@ class Animation extends Component {
     return(
       <div className="lottie-container">
         <Lottie options={defaultOptions}
-              
                 speed={.5}/>
       </div>
     )

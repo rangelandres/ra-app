@@ -16,8 +16,8 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     z-index: 2;
-    margin: 0 auto;
-  }
+    -webkit-box-orient: horizontal;
+}
 
 
   

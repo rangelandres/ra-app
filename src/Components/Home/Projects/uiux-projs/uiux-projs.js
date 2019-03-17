@@ -7,6 +7,8 @@ import '../slider.css';
 
 import logo from './logo.png';
 import errorLogo from './logo-error.png';
+import plLogo from './logo-pl.png';
+import shiftLogo from './logo-shift.png';
 
 class UIUXProjs extends Component {
 
@@ -51,7 +53,7 @@ class UIUXProjs extends Component {
             <Zoom>
             <div className="slider">
                   <div className="a-slide">
-                    <div className="slide-img">
+                    <div className="slide-img" id="uiux-proj1">
                       <div className="slide-overlay">
                         <div className="proj-logo-container">
                           <div>
@@ -116,7 +118,7 @@ class UIUXProjs extends Component {
                       <div className="slide-overlay">
                         <div className="proj-logo-container">
                           <div>
-                          <img id="logo" src={errorLogo} alt="UI" />
+                          <img id="logo" src={shiftLogo} alt="UI" />
                           </div>
                         </div>
                         <div className="pro-title-container">
@@ -147,7 +149,7 @@ class UIUXProjs extends Component {
                         <div className="slide-overlay">
                           <div className="proj-logo-container">
                             <div>
-                            <img id="logo" src={errorLogo} alt="UI" />
+                            <img id="logo" src={plLogo} alt="UI" />
                             </div>
                           </div>
                           <div className="pro-title-container">
@@ -173,7 +175,24 @@ class UIUXProjs extends Component {
               <Zoom delay={200}>
             <div className="slider">
                 <div className="a-slide">
-                    <h1>PROJ5</h1>
+                  <div className="slide-img" id="uiux-proj5">
+                    <div className="slide-overlay">
+                      <div className="proj-logo-container">
+                        <div>
+                        </div>
+                      </div>
+                      <div className="pro-title-container">
+                        <h1>coming soon</h1>
+                      </div>
+                      <div className="proj-description-container">
+                        <p>
+                      </p>
+                      </div>
+                      <div className="proj-button-container">
+
+                      </div>
+                    </div>
+                  </div>
                 </div>
             </div>
             </Zoom>

@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import ScrollLock from 'react-scrolllock';
+import Reveal from 'react-reveal/Reveal';
 
 import './print.css';
+import '../hero.css';
+
 import PrintProjs from './print-projs/print-projs';
 import Mag from './imgs-projs/mag.png';
 
@@ -39,7 +42,9 @@ class Print extends Component {
                         <h1 className="print-title">PRINT</h1>
                     </div>
 
-                    <img id="mag" src={Mag} alt="magazine"/>
+                    <Reveal effect="flipInY">
+                        <img id="mag" src={Mag} alt="magazine"/>
+                    </Reveal>
                 </div>
                 }
                 

@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 import ScrollLock from 'react-scrolllock';
+import Reveal from 'react-reveal/Reveal';
+
 
 import './uiux.css';
+import '../hero.css';
+
 
 import UIUXProjs from './uiux-projs/uiux-projs';
 import UI from './imgs-projs/gif-uiux.gif';
 import Phone from './imgs-projs/phone.png';
+
+
 
 
 class UIUX extends Component {
@@ -44,10 +50,14 @@ class UIUX extends Component {
                         <h1 className="r-title">UX</h1>
                     </div>
 
-                    <img id="phone" src={Phone} alt="phone frame" />
-                    <img id="gif" src={UI} alt="UI" />
+                    <Reveal effect="bounceIn">
+                        <img id="phone" src={Phone} alt="phone frame" />
+                        <img id="gif" src={UI} alt="UI" />
+                    </Reveal>
+
                 </div>
                 }
+
 
                 {this.state.on2 && 
                 <div className="container">

@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import ScrollLock from 'react-scrolllock';
-
+import Reveal from 'react-reveal/Reveal';
 
 import GraphicProjs from './graphic-projs/graphic-projs';
 
 import './graphic.css';
+import '../hero.css';
+
 
 import CPU from './imgs-projs/cpu.png';
 import CPU2 from './imgs-projs/gif-cpu.gif';
@@ -43,8 +45,10 @@ class Graphic extends Component {
                         <h1 className="graphic-title" id="title2">DESIGN</h1>
                     </div>
 
-                    <img id="cpu" src={CPU} alt="computer monitor"/>
-                    <img id="cpu" src={CPU2} alt="computer monitor"/>
+                    <Reveal effect="bounce">
+                        <img id="cpu" src={CPU} alt="computer monitor"/>
+                        <img id="cpu" src={CPU2} alt="computer monitor"/>
+                    </Reveal>
                 </div>
                 }
 
