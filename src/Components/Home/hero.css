@@ -1,3 +1,23 @@
+a :visited, a :link, a :active, a :focus
+{
+    text-decoration: none;
+}
+
+
+
+a:visited path{
+    fill: black;
+}
+a:hover path {
+    fill: white;
+    transition:  ease;
+}
+a:active path {
+    fill: black;
+}
+
+
+
 @keyframes bounceIn {
   from,
   20%,

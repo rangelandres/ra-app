@@ -1,11 +1,11 @@
 /* RESUME-HEADER*/
-li :hover, li :visited, li :link, li :active, li :focus
+ li :visited, li :link, li :active, li :focus
 {
     text-decoration: none;
 }
 
-li :visited {text-decoration: none; color:darkblue; }
-li :hover { text-decoration: none; color:orange; }
+li :visited {text-decoration: none; color:black; }
+li :hover { text-decoration: none; color:white; }
 
 li {
 	font-family: 'Roboto', sans-serif;	
@@ -31,6 +31,14 @@ li {
 	border-radius: 100%;
 	padding: 0 3px;
 	background-color: rgba(255, 255, 255, 0.349);  
+	transition: .3s ease;
+}
+
+.logo:hover{
+	border-radius: 0;
+	transition: .3s ease;
+	background-color: rgba(0, 0, 0, 0.349);  
+
 }
 	
 /*SIDE NAV*/	
