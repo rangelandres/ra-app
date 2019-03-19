@@ -20,7 +20,7 @@ li {
 .top-nav {
 	position: fixed;
 	width: 100vw;
-	padding-left: 12vw;
+	padding-left: 6.25vw;
 	top: 5vh;
 	z-index: 10;
 
@@ -46,7 +46,7 @@ li {
   list-style: none;
 	margin-top: 20vh;
   position: fixed;
-  right: 12.5%;
+  right: 6.25%;
   transform: rotate(90deg);
 	transform-origin: 100% 100%;
 	z-index: 10;
@@ -57,11 +57,21 @@ li {
 	.logo{
 		width: 7%;
 	}
+
+	.side-nav{
+		right: 12.5%;
+ 
+	 }
 }
 
 @media only screen and (max-width: 600px) {   
 	.logo{
 		width: 11%;
+	}
+
+	.side-nav{
+	 right: 12.5%;
+
 	}
 
 } 

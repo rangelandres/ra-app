@@ -226,7 +226,7 @@ toggleUIUX(){
 
         {this.state.fs &&
         <div className="project-freestyle">
-          <Freestyle/>
+          <Freestyle actionUIUX={this.toggleUIUX}/>
         </div>
         }
 
