@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Slider from "react-slick";
 import Zoom from 'react-reveal/Zoom';
 
-import Freestyle from './freestyle';
+import Freestyle from './freestyle/freestyle';
 
 import '../slider.css';
 

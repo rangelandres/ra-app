@@ -40,7 +40,7 @@ render(){
                         </a>
                     </div>
                     <div className="social-icon" id="icon">
-                        <a href="https://www.instagram.com/andresrangel.exe/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/andresrangel.dev/" target="_blank" rel="noopener noreferrer">
                             <svg className='Capa_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
                                 <path d='M352,0H160C71.648,0,0,71.648,0,160v192c0,88.352,71.648,160,160,160h192c88.352,0,160-71.648,160-160V160 C512,71.648,440.352,0,352,0z M464,352c0,61.76-50.24,112-112,112H160c-61.76,0-112-50.24-112-112V160C48,98.24,98.24,48,160,48 h192c61.76,0,112,50.24,112,112V352z'
                                 />
