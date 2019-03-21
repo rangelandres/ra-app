@@ -1,5 +1,12 @@
 p {
     margin-bottom: 1vh;
+    max-width: 500px;
+}
+
+#hundred-width{
+    width:100%;
+    display: flex;
+    justify-content: center;
 }
 .project-freestyle{
     overflow: auto;
@@ -276,13 +283,13 @@ p {
 
 
 .exit-container-container{
-    display: flex;
-    justify-content: center;
+
 }
 .exit-container-project{
     position: fixed;
     z-index: 10;
     bottom:0;
+    right:6.25vw;
     padding-bottom: 6.5vh;
 
 }
@@ -341,7 +348,6 @@ p {
         width: 92%;
         height: 25vh;
         margin-top: 5vh;
-        padding: 1vh 2vw;
 
     }
 
@@ -358,5 +364,13 @@ p {
     }
     #low{
         width: 100%;
+    }
+    p {
+        max-width: 90vw;
+    }
+    .target-audience{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

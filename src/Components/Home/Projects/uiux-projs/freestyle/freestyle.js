@@ -60,7 +60,7 @@ class Freestyle extends Component {
 
                         
                         <div className="freestyle-description">
-                            <div>
+                            <div id="hundred-width">
                                 <p id="fs-description">Freestyle is a mockapp where users can identify instruments within a song to 
                                 create new compositions. Project focused on UI/UX design and principles.
                                 </p>
@@ -70,8 +70,11 @@ class Freestyle extends Component {
 
                             <div id="design-challenge">
                                 <h3 id="fs-heading"> Design Challenge </h3>
-                                <p>Give the ability to deconstruct a composition down to its instuments in order to reimagine a new sound.</p>
+                                <div id="hundred-width">
+                                    <p>Give the ability to deconstruct a composition down to its instuments in order to reimagine a new sound.</p>
+                                </div>
                             </div>
+
 
                             <div id="fs">
                                 <div><img id="fs" src={FS} alt="Freestyle iPhone"/></div>
@@ -81,10 +84,12 @@ class Freestyle extends Component {
 
                             <div id="design-challenge">
                                 <h3 id="fs-heading">Competition Analysis</h3>
+                                <div id="hundred-width">
                                 <p>No current applications exist at time of creation. I drew inspiration from; FL Studio,
                                     Garage Band, Spotify, Poweramp. These applications deal with music on the user
                                     end as well as the production side. I meshed
                                     qualities from these apps along with my ideas to create Freestyle.</p>
+                                </div>
                             </div>
 
                             <div className="bars">
@@ -132,6 +137,7 @@ class Freestyle extends Component {
                             <div className="fs-brand">
                                 <div>
                                     <h3 id="fs-heading">Brand Strategy</h3>
+                                    <div id="hundred-width">
                                     <p>Freestyle carries a simplistic modern
                                         lifestyle. The colors consist of Blue, Violet,
                                         Red, and Orange. These color coordinate
@@ -141,6 +147,7 @@ class Freestyle extends Component {
                                         heavier sounds. I used this theory to model
                                         my color choices throughout the app.
                                     </p>
+                                    </div>
 
                                     <div className="fs-colors">
                                         <div className="half-container">
@@ -172,6 +179,7 @@ class Freestyle extends Component {
                                             </div>
                                         </div>
                                     </div>
+                                    <div id="hundred-width">
                                     <p>
                                     The interface is influenced by traditional
                                     mobile platforms with sleek line work. I used
@@ -180,6 +188,7 @@ class Freestyle extends Component {
                                     I wanted to capture when designing my interface. I
                                     wanted to highlight these soundwaves.
                                     </p>
+                                    </div>
                                 </div>
 
                             </div>
@@ -272,9 +281,13 @@ class Freestyle extends Component {
 
                 <div className="exit-container-container">
                     <div className="exit-container-project">
+                    <Reveal effect="fadeInUp">
+
                         <div onClick={this.props.actionUIUX} className="exit-button">
                             <h2 className="button-text">X</h2>
                         </div>
+                        </Reveal>
+
                     </div>
                 </div>
                 
