@@ -12,6 +12,29 @@ import errorLogo from './logo-error.png';
 import plLogo from './logo-pl.png';
 import shiftLogo from './logo-shift.png';
 
+
+function NextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", marginRight: "5vh", zIndex: "3"  }}
+      onClick={onClick}
+    />
+  );
+}
+
+function PrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", marginLeft: "5vh", zIndex: "3" }}
+      onClick={onClick}
+    />
+  );
+}
+
 class UIUXProjs extends Component {
   
 constructor(props) {
@@ -41,6 +64,8 @@ toggleUIUX(){
         slidesToShow: 3,
         slidesToScroll: 3,
         initialSlide: 0,
+        nextArrow: <NextArrow />,
+        prevArrow: <PrevArrow />,
         responsive: [
           {
             breakpoint: 1024,

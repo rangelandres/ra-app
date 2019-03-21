@@ -6,6 +6,16 @@
     margin-top: 10vh;
 }
 
+.slick-dots{
+    bottom: none;
+    top: 10vh;
+    z-index:0;
+}
+
+.slick-list{
+    z-index: 2;
+}
+
 .slider{
     height: 69vh;
     display: flex;
@@ -25,10 +35,10 @@
 }
 
 .exit-container{
-    width: 100%;
     display: flex;
+    width: 100%;
     justify-content: center;
-    margin-top: 5vh;
+    margin-top: -2vh;
 }
 
 .exit-button{
@@ -41,6 +51,7 @@
     align-items: center;
     background-color: rgba(255, 255, 255, 0.6);
     transition: .2s ease;
+    z-index: 5;;
 
 }
 
@@ -115,8 +126,7 @@
 
 .slider-container{
     height: 100vh;
-    padding-bottom: 30vh;
-    padding: 0 8vw 30vh 8vw;
+    padding: 0 0vw 33vh 0vw;
 }
 
 #uiux-proj2{

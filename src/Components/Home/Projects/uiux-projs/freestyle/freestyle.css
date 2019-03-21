@@ -7,6 +7,7 @@ p {
     padding-bottom: 10vh;
     overflow: -moz-scrollbars-none;
     -ms-overflow-style: none; 
+    -webkit-overflow-scrolling: touch !important;
 }
 
 .project-freestyle::-webkit-scrollbar { width: 0 !important }
