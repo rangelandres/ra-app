@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Slider from "react-slick";
 import Zoom from 'react-reveal/Zoom';
+import Reveal from 'react-reveal/Reveal';
 
 import Freestyle from './freestyle/freestyle';
 
@@ -256,9 +257,11 @@ toggleUIUX(){
         }
 
         <div className="exit-container">
-          <div onClick={this.props.action} className="exit-button">
-              <h2 className="button-text">X</h2>
-          </div>
+          <Reveal effect="fadeInUp">
+            <div onClick={this.props.action} className="exit-button">
+                <h2 className="button-text">X</h2>
+            </div>
+          </Reveal>
         </div>
   
       </div>

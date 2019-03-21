@@ -281,13 +281,11 @@ class Freestyle extends Component {
 
                 <div className="exit-container-container">
                     <div className="exit-container-project">
-                    <Reveal effect="fadeInUp">
-
-                        <div onClick={this.props.actionUIUX} className="exit-button">
-                            <h2 className="button-text">X</h2>
-                        </div>
+                        <Reveal effect="fadeInUp">
+                            <div onClick={this.props.actionUIUX} className="exit-button">
+                                <h2 className="button-text">X</h2>
+                            </div>
                         </Reveal>
-
                     </div>
                 </div>
                 

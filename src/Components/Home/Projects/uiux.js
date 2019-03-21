@@ -67,10 +67,7 @@ class UIUX extends Component {
 
 
                 {this.state.on &&
-                <div className="button-container">
-
-
-                    
+                <div className="button-container">                  
                     <button onClick={this.toggle} className="button" id="uiux-button">
                         <h2 className="button-text">VIEW</h2>
                     </button>
