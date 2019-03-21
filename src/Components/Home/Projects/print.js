@@ -42,7 +42,7 @@ class Print extends Component {
                         <h1 className="print-title">PRINT</h1>
                     </div>
 
-                    <Reveal effect="flipInY">
+                    <Reveal effect="rubberBand">
                         <img id="mag" src={Mag} alt="magazine"/>
                     </Reveal>
                 </div>
