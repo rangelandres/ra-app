@@ -1,3 +1,4 @@
+/* Slider of PROJECTS for uiux, print, gd*/
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
@@ -67,13 +68,6 @@
     border-radius: 5px;
 }
 
-#uiux-proj1{
-    background-image: url('../Projects/uiux-projs/cover-freestyle.png');
-    background-position: center center;
-    background-size: cover;
-    background-repeat: none;
-}
-
 .slide-overlay{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.65);
@@ -87,7 +81,6 @@
     text-align: center;
     align-content: center;
     border-radius: 5px;
-
 }
 
 .proj-logo-container{
@@ -129,6 +122,13 @@
     padding: 0 0vw 33vh 0vw;
 }
 
+#uiux-proj1{
+    background-image: url('../Projects/uiux-projs/cover-freestyle.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: none;
+}
+
 #uiux-proj2{
     background-image: url('../Projects/uiux-projs/cover-error.png');
     background-position: center center;
@@ -146,6 +146,44 @@
     background-position: center;
     background-size: contain;
 }
+
+
+#print-proj1{
+    background-image: url('../Projects/imgs-projs/mag.png');
+    background-position: center;
+}
+#print-proj2{
+    background-image: url('./print-projs/spying.png');
+}
+#print-proj3{
+    background-image: url('./print-projs/catalog.png');
+}
+#print-proj4{
+    background-image: url('./print-projs/hierarchy.png');
+
+}
+
+#gd-proj1{
+    background-image: url('./graphic-projs/socialmedia.png');
+    background-size: cover;
+    background-position: center left;
+}
+#gd-proj2{
+    background-image: url('./graphic-projs/mutrition.png');
+    background-size: cover;
+    background-position: center;
+}
+#gd-proj3{
+    background-image: url('./graphic-projs/menu1.png');
+    background-position: top right;
+}
+#gd-proj4{
+    background-image: url('./graphic-projs/vince.png');
+    background-position: center;
+    background-size: cover;
+
+}
+
 
 @keyframes fadeInUp {
     from {

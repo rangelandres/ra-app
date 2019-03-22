@@ -1,3 +1,5 @@
+/* Project Freestyle */
+
 p {
     margin-bottom: 1vh;
     max-width: 500px;
@@ -52,12 +54,10 @@ p {
     color: white;
     flex-wrap: wrap;
     flex-direction: column;
-    
 }
 
 #fs-description{
     text-align: center;
-    
 }
 
 #fs{
@@ -179,11 +179,7 @@ p {
     flex-direction: row;
     justify-content: space-evenly;
     margin: 7vh 0;
-
 }
-
-
-
 
 #color-container{
     width: 60px;
