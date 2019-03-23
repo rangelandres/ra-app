@@ -120,6 +120,8 @@
 .slider-container{
     height: 100vh;
     padding: 0 0vw 33vh 0vw;
+    overflow: hidden;
+
 }
 
 #uiux-proj1{

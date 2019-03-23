@@ -5,10 +5,12 @@ import Zoom from 'react-reveal/Zoom';
 import Reveal from 'react-reveal/Reveal';
 
 import EightMag from './eightmag/eightmag';
+import Catalog from './catalog/catalog';
+import Spying from './spying/spying';
+import Heiarchy from './heiarchy/heiarchy';
 
 import '../slider.css';
 
-import Spying from './spying.png';
 
 
 function NextArrow(props) {
@@ -40,19 +42,46 @@ constructor(props) {
   super(props)
 
   this.togglePrint = this.togglePrint.bind(this);
+  this.toggleCatalog = this.toggleCatalog.bind(this);
+  this.toggleSpying = this.toggleSpying.bind(this);
+  this.toggleHeiarchy = this.toggleHeiarchy.bind(this);
 
   this.state = {
       on: true,
-      fs: false
+      print: false,
+      catalog: false,
+      spying: false,
+      heiarchy: false
   };
 }
 
-togglePrint(){
-  this.setState({
-        on: !this.state.on,
-        fs: !this.state.fs
-    });
-  }
+  togglePrint(){
+    this.setState({
+          on: !this.state.on,
+          print: !this.state.print
+      });
+    }
+
+  toggleCatalog(){
+    this.setState({
+          on: !this.state.on,
+          catalog: !this.state.catalog
+      });
+    }
+
+  toggleSpying(){
+    this.setState({
+          on: !this.state.on,
+          spying: !this.state.spying
+      });
+    }
+
+    toggleHeiarchy(){
+      this.setState({
+            on: !this.state.on,
+            heiarchy: !this.state.heiarchy
+        });
+    }
 
 
     render() {
@@ -114,7 +143,7 @@ togglePrint(){
                           <p>A series of magazines revolving around influential artists and their work.</p>
                         </div>
                         <div className="proj-button-container">
-                          <button className="proj-button"  onClick={this.togglePrint}>
+                          <button className="proj-button" onClick={this.togglePrint}>
                             <h2 className="button-text">VIEW</h2>
                           </button>
                         </div>
@@ -141,7 +170,7 @@ togglePrint(){
                           <p>Poster spreading awarness of potential malicious behavior with webcams.</p>
                         </div>
                         <div className="proj-button-container">
-                          <button className="proj-button">
+                        <button className="proj-button" onClick={this.toggleSpying}>
                             <h2 className="button-text">VIEW</h2>
                           </button>
                         </div>
@@ -172,7 +201,7 @@ togglePrint(){
                           <p> University catolog of graduate art work in the Arts program.</p>
                         </div>
                         <div className="proj-button-container">
-                          <button className="proj-button">
+                        <button className="proj-button" onClick={this.toggleCatalog}>
                             <h2 className="button-text">VIEW</h2>
                           </button>
                         </div>
@@ -203,7 +232,7 @@ togglePrint(){
                           </p>
                           </div>
                           <div className="proj-button-container">
-                            <button className="proj-button">
+                          <button className="proj-button" onClick={this.toggleHeiarchy}>
                               <h2 className="button-text">VIEW</h2>
                             </button>
                           </div>
@@ -244,9 +273,27 @@ togglePrint(){
         </Slider>
         }
 
-        {this.state.fs &&
-        <div className="project-freestyle">
+        {this.state.print &&
+        <div className="project">
           <EightMag actionPrint={this.togglePrint}/>
+        </div>
+        }
+
+        {this.state.catalog &&
+        <div className="project">
+          <Catalog actionCatalog={this.toggleCatalog}/>
+        </div>
+        }
+
+        {this.state.spying &&
+        <div className="project">
+          <Spying actionSpying={this.toggleSpying}/>
+        </div>
+        }
+
+        {this.state.heiarchy &&
+        <div className="project">
+          <Heiarchy actionHeiarchy={this.toggleHeiarchy}/>
         </div>
         }
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Reveal from 'react-reveal/Reveal';
 
-import './eightmag.css'
+import './catalog.css'
 
 
 
@@ -169,7 +169,7 @@ class Shift extends Component {
                 <div className="exit-container-container">
                     <div className="exit-container-project">
                         <Reveal effect="fadeInUp">
-                            <div onClick={this.props.actionEightMag} className="exit-button">
+                            <div onClick={this.props.actionCatalog} className="exit-button">
                                 <h2 className="button-text">X</h2>
                             </div>
                         </Reveal>

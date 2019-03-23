@@ -1,12 +1,12 @@
 import React  from 'react';
-import './navbars.css';
 import {Link} from 'react-router-dom';
+
+import './navbars.css';
 
 const Navbars = () => (
 
     <div className ="nav-container">
-
-        <div className="top-nav">
+            <div className="top-nav">
             <div>
                 <div className="logo">
                     <Link to="/">
@@ -29,7 +29,6 @@ const Navbars = () => (
             <li><h3><Link to="/resume">resume</Link></h3></li>
         </ul>
 
-     
     </div>
 
 );

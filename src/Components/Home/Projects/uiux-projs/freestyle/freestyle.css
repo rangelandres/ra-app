@@ -10,7 +10,7 @@ p {
     display: flex;
     justify-content: center;
 }
-.project-freestyle{
+.project{
     overflow: auto;
     max-height: 100vh;
     padding-bottom: 10vh;
@@ -19,8 +19,7 @@ p {
     -webkit-overflow-scrolling: touch !important;
 }
 
-.project-freestyle::-webkit-scrollbar { width: 0 !important }
-
+.project::-webkit-scrollbar { width: 0 !important }
 
 .freestyle-container{
     width: 100%;

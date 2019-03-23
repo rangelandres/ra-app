@@ -1,5 +1,9 @@
   /*UIUX*/
 
+  .a-container{
+      width: 100%;
+  }
+
 .uiux-container{
     height: 150vh;
     width: 100%;

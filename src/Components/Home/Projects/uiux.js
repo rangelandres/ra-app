@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import ScrollLock from 'react-scrolllock';
 import Reveal from 'react-reveal/Reveal';
-
+import ScrollLock, { TouchScrollable } from 'react-scrolllock';
 
 import './uiux.css';
 import '../hero.css';
@@ -24,7 +23,6 @@ class UIUX extends Component {
         this.state = {
             on: true,
             on2: false,
-            lockScroll: false 
         };
     }
 
@@ -32,9 +30,10 @@ class UIUX extends Component {
         this.setState({
             on: !this.state.on,
             on2: !this.state.on2,
-            lockScroll: !this.state.lockScroll 
         });
     }
+
+ 
 
     render(){
         return (
@@ -58,12 +57,15 @@ class UIUX extends Component {
                 </div>
                 }
 
-
+                
                 {this.state.on2 && 
                 <div className="container">
-                    <UIUXProjs action={this.toggle}/>   
+                    <ScrollLock>
+                            <UIUXProjs action={this.toggle}/>   
+                    </ScrollLock>
                 </div>
                 }
+
 
 
                 {this.state.on &&
@@ -74,7 +76,6 @@ class UIUX extends Component {
                 </div>
                 }
 
-                <ScrollLock isActive={this.state.lockScroll} />
 
             </div>
 

@@ -4,7 +4,10 @@ import Slider from "react-slick";
 import Zoom from 'react-reveal/Zoom';
 import Reveal from 'react-reveal/Reveal';
 
-import SocialMedia from './socialmedia'
+import SocialMedia from './socialmedia/socialmedia'
+import Mutrition from './mutrition/mutrition'
+import Vespa from './vespa/vespa'
+import Vince from './vince/vince'
 
 import '../slider.css';
 
@@ -38,20 +41,48 @@ class GDProjs extends Component {
 constructor(props) {
   super(props)
 
-  this.toggleGD = this.toggleGD.bind(this);
+  this.toggleSM = this.toggleSM.bind(this);
+  this.toggleMU = this.toggleMU.bind(this);
+  this.toggleVespa = this.toggleVespa.bind(this);
+  this.toggleVince = this.toggleVince.bind(this);
 
   this.state = {
       on: true,
-      social: false
+      social: false,
+      mutrition: false,
+      vespa: false,
+      vince: false
+
   };
 }
 
-toggleGD(){
-  this.setState({
-        on: !this.state.on,
-        social: !this.state.social
-    });
-  }
+    toggleSM(){
+      this.setState({
+            on: !this.state.on,
+            social: !this.state.social
+        });
+      }
+
+    toggleMU(){
+      this.setState({
+            on: !this.state.on,
+            mutrition: !this.state.mutrition
+        });
+      }
+
+    toggleVespa(){
+      this.setState({
+            on: !this.state.on,
+            vespa: !this.state.vespa
+        });
+      }
+
+    toggleVince(){
+      this.setState({
+            on: !this.state.on,
+            vince: !this.state.vince
+        });
+      }
 
 
     render() {
@@ -113,7 +144,7 @@ toggleGD(){
                           <p>Created an Instagram story for the Journalism Program at the University of Iowa</p>
                         </div>
                         <div className="proj-button-container">
-                          <button className="proj-button"  onClick={this.toggleGD}>
+                          <button className="proj-button"  onClick={this.toggleSM}>
                             <h2 className="button-text">VIEW</h2>
                           </button>
                         </div>
@@ -140,7 +171,7 @@ toggleGD(){
                           <p>Satire Packaging design for water from the Iowa River in Iowa City.</p>
                         </div>
                         <div className="proj-button-container">
-                          <button className="proj-button">
+                        <button className="proj-button" onClick={this.toggleMU}>
                             <h2 className="button-text">VIEW</h2>
                           </button>
                         </div>
@@ -150,41 +181,10 @@ toggleGD(){
                 </div>
                 </Zoom>
 
-            </div>
-            
-          <div>
-          <Zoom delay={400}>
-
-            <div className="slider">
-                <div className="a-slide">
-                    <div className="slide-img" id="gd-proj3">
-                      <div className="slide-overlay">
-                        <div className="proj-logo-container">
-                          <div>
-                          <h1>coming soon</h1>
-                          </div>
-                        </div>
-                        <div className="pro-title-container">
-                          <h1> Red Vespa</h1>
-                        </div>
-                        <div className="proj-description-container">
-                          <p> Rebrand for local pizzeria.</p>
-                        </div>
-                        <div className="proj-button-container">
-                          <button className="proj-button">
-                            <h2 className="button-text">VIEW</h2>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            </Zoom>
-
           </div>
+
           <div>
             <Zoom delay={400}>
-
                 <div className="slider">
                     <div className="a-slide">
                       <div className="slide-img" id="gd-proj4">
@@ -201,7 +201,7 @@ toggleGD(){
                           <p> Rebrand for Big Fish Theory album.</p>
                           </div>
                           <div className="proj-button-container">
-                            <button className="proj-button">
+                          <button className="proj-button" onClick={this.toggleVince}>
                               <h2 className="button-text">VIEW</h2>
                             </button>
                           </div>
@@ -210,14 +210,61 @@ toggleGD(){
                     </div>
                 </div>
             </Zoom>
+          </div>
+
+          <div>
+          <Zoom delay={400}>
+            <div className="slider">
+                <div className="a-slide">
+                    <div className="slide-img" id="gd-proj3">
+                      <div className="slide-overlay">
+                        <div className="proj-logo-container">
+                          <div>
+                          </div>
+                        </div>
+                        <div className="pro-title-container">
+                          <h1> Red Vespa</h1>
+                        </div>
+                        <div className="proj-description-container">
+                          <p> Rebrand for local pizzeria.</p>
+                        </div>
+                        <div className="proj-button-container">
+                        <button className="proj-button" onClick={this.toggleVespa}>
+                            <h2 className="button-text">VIEW</h2>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            </Zoom>
 
           </div>
+
         </Slider>
         }
 
         {this.state.social &&
-        <div className="project-freestyle">
-          <SocialMedia actionGD={this.toggleGD}/>
+        <div className="project">
+          <SocialMedia actionSM={this.toggleSM}/>
+        </div>
+        }
+
+        {this.state.mutrition &&
+        <div className="project">
+          <Mutrition actionMU={this.toggleMU}/>
+        </div>
+        }
+
+        {this.state.vince &&
+        <div className="project">
+          <Vince actionVince={this.toggleVince}/>
+        </div>
+        }
+
+        {this.state.vespa &&
+        <div className="project">
+          <Vespa actionVespa={this.toggleVespa}/>
         </div>
         }
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ScrollLock from 'react-scrolllock';
+import ScrollLock, { TouchScrollable } from 'react-scrolllock';
 import Reveal from 'react-reveal/Reveal';
 
 import GraphicProjs from './graphic-projs/graphic-projs';
@@ -17,20 +17,18 @@ class Graphic extends Component {
     constructor(props) {
         super(props)
 
-        this.toggle = this.toggle.bind(this);
+        this.toggle2 = this.toggle2.bind(this);
 
         this.state = {
             on: true,
-            on2: false,
-            lockScroll: false 
+            on2: false
         };
     }
 
-    toggle(){
+    toggle2(){
         this.setState({
             on: !this.state.on,
-            on2: !this.state.on2,
-            lockScroll: !this.state.lockScroll 
+            on2: !this.state.on2
         });
     }
 
@@ -54,19 +52,20 @@ class Graphic extends Component {
 
                 {this.state.on2 && 
                 <div className="container">
-                    <GraphicProjs action={this.toggle}/>
+                    <ScrollLock>
+                    <GraphicProjs action={this.toggle2}/>
+                    </ScrollLock>
                 </div>    
                 }
 
                 {this.state.on &&
                 <div className="button-container">
-                    <button onClick={this.toggle} className="button" id="g-button">
+                    <button onClick={this.toggle2} className="button" id="g-button">
                         <h2 className="button-text" id="g-text">VIEW</h2>
                     </button>
                 </div>
                 }
 
-                <ScrollLock isActive={this.state.lockScroll} />
 
 
             </div>

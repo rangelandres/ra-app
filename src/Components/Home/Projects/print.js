@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ScrollLock from 'react-scrolllock';
 import Reveal from 'react-reveal/Reveal';
+import ScrollLock, { TouchScrollable } from 'react-scrolllock';
 
 import './print.css';
 import '../hero.css';
@@ -19,7 +19,6 @@ class Print extends Component {
         this.state = {
             on: true,
             on2: false,
-            lockScroll: false 
         };
     }
 
@@ -27,7 +26,6 @@ class Print extends Component {
         this.setState({
             on: !this.state.on,
             on2: !this.state.on2,
-            lockScroll: !this.state.lockScroll 
         });
     }
 
@@ -50,7 +48,9 @@ class Print extends Component {
                 
                 {this.state.on2 && 
                 <div className="container">
-                    <PrintProjs action={this.toggle}/>   
+                    <ScrollLock>
+                        <PrintProjs action={this.toggle}/>
+                    </ScrollLock>
                 </div>
                 }
 
@@ -62,7 +62,6 @@ class Print extends Component {
                 </div>
                 }
                 
-                <ScrollLock isActive={this.state.lockScroll} />
 
             </div>
 

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Reveal from 'react-reveal/Reveal';
 import Slider from "react-slick";
-import { TouchScrollable } from 'react-scrolllock';
 
 import './freestyle.css'
 
@@ -48,7 +47,6 @@ class Freestyle extends Component {
 
         return(
             <div className="freestyle-container">
-                    <TouchScrollable>
 
                 <Reveal effect="fadeInUp">
                     <div className="freestyle">
@@ -277,12 +275,11 @@ class Freestyle extends Component {
 
                     </div>
                 </Reveal>   
-                </TouchScrollable>
 
                 <div className="exit-container-container">
                     <div className="exit-container-project">
                         <Reveal effect="fadeInUp">
-                            <div onClick={this.props.actionUIUX} className="exit-button">
+                            <div onClick={this.props.actionFS} className="exit-button">
                                 <h2 className="button-text">X</h2>
                             </div>
                         </Reveal>

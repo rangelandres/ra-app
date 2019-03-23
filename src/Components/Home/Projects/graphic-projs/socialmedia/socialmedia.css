@@ -1,0 +1,49 @@
+.project-social-media{
+    overflow: auto;
+    max-height: 100vh;
+    padding-bottom: 10vh;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none; 
+    -webkit-overflow-scrolling: touch !important;
+}
+
+.project-social-media::-webkit-scrollbar { width: 0 !important }
+
+
+
+.socialmedia-container{
+    width: 100%;
+    height:100%;
+    background-color: azure;
+}
+
+.socialmedia{
+    height: 100vh;
+    margin-top: 10vh;
+    margin-bottom: 30vh;
+}
+
+#i-story{
+    font-size: 4.3em;
+    margin-bottom: 2vh;
+    margin-left: 6.25%;
+    font-weight: bold;
+}
+
+.react-player{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+
+}
+
+.story-p{
+    width: 70vw;
+    margin-left: 6.25%;
+}
+
+#story-p{
+    max-width: none;
+
+}
