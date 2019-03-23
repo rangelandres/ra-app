@@ -20,8 +20,8 @@ class Home extends Component {
             <div className="home">
                 <Hero/>
                 <UIUX />
-                <Print />
                 <Graphic/>
+                <Print />
                 <Footer />
             </div>
 
