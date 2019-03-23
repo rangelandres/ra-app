@@ -275,7 +275,7 @@ constructor(props) {
 
         {this.state.print &&
         <div className="project">
-          <EightMag actionPrint={this.togglePrint}/>
+          <EightMag actionEightMag={this.togglePrint}/>
         </div>
         }
 
