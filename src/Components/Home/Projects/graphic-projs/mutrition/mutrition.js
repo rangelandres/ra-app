@@ -4,7 +4,11 @@ import Reveal from 'react-reveal/Reveal';
 import './mutrition.css'
 
 
-
+import muTitle from './mu-title.png'
+import muBlue from './label-blue.png'
+import muGreen from './label-green.png'
+import muYellow from './label-yellow.png'
+import muPack from './mu-pack.png'
 
 class Mutrition extends Component {
 
@@ -17,56 +21,26 @@ class Mutrition extends Component {
 
 
                 <Reveal effect="fadeInUp">
-                    <div className="freestyle">
-                        <div className="freestyle-hero" >
+                    <div className="mutrition">
 
-                        </div>
+                    <div className="mu-title">
+                        <div><img id="mu-title" src={muTitle} alt="Mutrition Title"/></div>
+                    </div>
 
-                        
-                        <div className="freestyle-description">
-                            <div id="hundred-width">
-                                <p id="fs-description">THIS IS SHIFT  is a mockapp where users can identify instruments within a song to 
-                                create new compositions. Project focused on UI/UX design and principles.
-                                </p>
-                            </div>
+                    <div className="mu-title" id="mu-bg">
+                        <div><img id="muPrint" src={muBlue} alt="Mutrition Title"/></div>
+                    </div>
+                    <div className="mu-title" id="mu-bg">
+                        <div><img id="muPrint" src={muGreen} alt="Mutrition Title"/></div>
+                    </div>
+                    <div className="mu-title" id="mu-bg">
+                        <div><img id="muPrint" src={muYellow} alt="Mutrition Title"/></div>
+                    </div>
 
-
-
-                            <div id="design-challenge">
-                                <h3 id="fs-heading"> Design Challenge </h3>
-                                <div id="hundred-width">
-                                    <p>Give the ability to deconstruct a composition down to its instuments in order to reimagine a new sound.</p>
-                                </div>
-                            </div>
-
-
-                            <div id="fs">
-
-                            </div>
-
-                            <div id="design-challenge">
-                                <h3 id="fs-heading">Competition Analysis</h3>
-                                <div id="hundred-width">
-                                <p>No current applications exist at time of creation. I drew inspiration from; FL Studio,
-                                    Garage Band, Spotify, Poweramp. These applications deal with music on the user
-                                    end as well as the production side. I meshed
-                                    qualities from these apps along with my ideas to create Freestyle.</p>
-                                </div>
-                            </div>
-
-                            <div className="bars">
-                                <div className="bar"><div id="bar1"></div></div>
-                                <div className="bar"><div id="bar2"></div></div>
-                                <div className="bar"><div id="bar3"></div></div>
-                                <div className="bar"><div id="bar4"></div></div>
-                            </div>
-
-
-
-     
-
-                        </div>
-
+            
+                    <div className="mu-cover">
+                    
+                    </div>
 
                     </div>
                 </Reveal>   
@@ -74,8 +48,8 @@ class Mutrition extends Component {
                 <div className="exit-container-container">
                     <div className="exit-container-project">
                         <Reveal effect="fadeInUp">
-                            <div onClick={this.props.actionMU} className="exit-button">
-                                <h2 className="button-text">X</h2>
+                            <div onClick={this.props.actionMU} className="exit-button" id="g-button">
+                                <h2 className="button-text" id="g-text">X</h2>
                             </div>
                         </Reveal>
                     </div>

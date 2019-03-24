@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Reveal from 'react-reveal/Reveal';
-import ScrollLock, { TouchScrollable } from 'react-scrolllock';
+import ScrollLock from 'react-scrolllock';
 
 import './uiux.css';
 import '../hero.css';
@@ -61,7 +61,7 @@ class UIUX extends Component {
                 {this.state.on2 && 
                 <div className="container">
                     <ScrollLock>
-                            <UIUXProjs action={this.toggle}/>   
+                        <UIUXProjs action={this.toggle}/>   
                     </ScrollLock>
                 </div>
                 }

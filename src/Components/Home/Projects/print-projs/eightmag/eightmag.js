@@ -169,8 +169,8 @@ class Shift extends Component {
                 <div className="exit-container-container">
                     <div className="exit-container-project">
                         <Reveal effect="fadeInUp">
-                            <div onClick={this.props.actionEightMag} className="exit-button">
-                                <h2 className="button-text">X</h2>
+                            <div onClick={this.props.actionEightMag} className="exit-button" id="o-button">
+                                <h2 className="button-text" id="o-text">X</h2>
                             </div>
                         </Reveal>
                     </div>

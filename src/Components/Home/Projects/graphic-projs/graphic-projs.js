@@ -144,8 +144,8 @@ constructor(props) {
                           <p>Created an Instagram story for the Journalism Program at the University of Iowa</p>
                         </div>
                         <div className="proj-button-container">
-                          <button className="proj-button"  onClick={this.toggleSM}>
-                            <h2 className="button-text">VIEW</h2>
+                          <button className="proj-button" id="g-button" onClick={this.toggleSM}>
+                            <h2 className="button-text" id="g-text">VIEW</h2>
                           </button>
                         </div>
                       </div>
@@ -171,8 +171,8 @@ constructor(props) {
                           <p>Satire Packaging design for water from the Iowa River in Iowa City.</p>
                         </div>
                         <div className="proj-button-container">
-                        <button className="proj-button" onClick={this.toggleMU}>
-                            <h2 className="button-text">VIEW</h2>
+                        <button className="proj-button" id="g-button" onClick={this.toggleMU}>
+                            <h2 className="button-text" id="g-text">VIEW</h2>
                           </button>
                         </div>
                       </div>
@@ -201,8 +201,8 @@ constructor(props) {
                           <p> Rebrand for Big Fish Theory album.</p>
                           </div>
                           <div className="proj-button-container">
-                          <button className="proj-button" onClick={this.toggleVince}>
-                              <h2 className="button-text">VIEW</h2>
+                          <button className="proj-button" id="g-button" onClick={this.toggleVince}>
+                              <h2 className="button-text" id="g-text">VIEW</h2>
                             </button>
                           </div>
                         </div>
@@ -229,8 +229,8 @@ constructor(props) {
                           <p> Rebrand for local pizzeria.</p>
                         </div>
                         <div className="proj-button-container">
-                        <button className="proj-button" onClick={this.toggleVespa}>
-                            <h2 className="button-text">VIEW</h2>
+                        <button className="proj-button" id="g-button" onClick={this.toggleVespa}>
+                            <h2 className="button-text" id="g-text">VIEW</h2>
                           </button>
                         </div>
                       </div>
@@ -270,8 +270,8 @@ constructor(props) {
 
         <div className="exit-container">
           <Reveal effect="fadeInUp">
-            <div onClick={this.props.action} className="exit-button">
-                <h2 className="button-text">X</h2>
+            <div onClick={this.props.action} className="exit-button" id="g-button">
+                <h2 className="button-text" id="g-text">X</h2>
             </div>
           </Reveal>
         </div>

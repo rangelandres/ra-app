@@ -24,11 +24,12 @@ const Navbars = () => (
             </div>
         
         </div>
-
+        
+        <Link to="/resume">
         <ul className="side-nav">
-            <li><h3><Link to="/resume">resume</Link></h3></li>
+        <li><h3>resume</h3></li>
         </ul>
-
+        </Link>
     </div>
 
 );

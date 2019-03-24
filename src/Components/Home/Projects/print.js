@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Reveal from 'react-reveal/Reveal';
-import ScrollLock, { TouchScrollable } from 'react-scrolllock';
+import ScrollLock from 'react-scrolllock';
 
 import './print.css';
 import '../hero.css';
@@ -56,8 +56,8 @@ class Print extends Component {
 
                 {this.state.on &&
                 <div className="button-container">
-                    <button onClick={this.toggle} className="button" id="b-color">
-                        <h2 className="button-text" id="bt-color">VIEW</h2>
+                    <button onClick={this.toggle} className="button" id="o-button">
+                        <h2 className="button-text" id="o-text">VIEW</h2>
                     </button>
                 </div>
                 }

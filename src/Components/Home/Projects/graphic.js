@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ScrollLock, { TouchScrollable } from 'react-scrolllock';
+import ScrollLock from 'react-scrolllock';
 import Reveal from 'react-reveal/Reveal';
 
 import GraphicProjs from './graphic-projs/graphic-projs';

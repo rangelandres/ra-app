@@ -74,8 +74,8 @@ class Vespa extends Component {
                 <div className="exit-container-container">
                     <div className="exit-container-project">
                         <Reveal effect="fadeInUp">
-                            <div onClick={this.props.actionSM} className="exit-button">
-                                <h2 className="button-text">X</h2>
+                            <div onClick={this.props.actionSM} className="exit-button" id="g-button">
+                                <h2 className="button-text" id="g-text">X</h2>
                             </div>
                         </Reveal>
                     </div>

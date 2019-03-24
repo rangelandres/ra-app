@@ -143,8 +143,8 @@ constructor(props) {
                           <p>A series of magazines revolving around influential artists and their work.</p>
                         </div>
                         <div className="proj-button-container">
-                          <button className="proj-button" onClick={this.togglePrint}>
-                            <h2 className="button-text">VIEW</h2>
+                          <button className="proj-button" id="o-button" onClick={this.togglePrint}>
+                            <h2 className="button-text" id="o-text">VIEW</h2>
                           </button>
                         </div>
                       </div>
@@ -170,8 +170,8 @@ constructor(props) {
                           <p>Poster spreading awarness of potential malicious behavior with webcams.</p>
                         </div>
                         <div className="proj-button-container">
-                        <button className="proj-button" onClick={this.toggleSpying}>
-                            <h2 className="button-text">VIEW</h2>
+                        <button className="proj-button" id="o-button" onClick={this.toggleSpying}>
+                            <h2 className="button-text" id="o-text">VIEW</h2>
                           </button>
                         </div>
                       </div>
@@ -201,8 +201,8 @@ constructor(props) {
                           <p> University catolog of graduate art work in the Arts program.</p>
                         </div>
                         <div className="proj-button-container">
-                        <button className="proj-button" onClick={this.toggleCatalog}>
-                            <h2 className="button-text">VIEW</h2>
+                        <button className="proj-button" id="o-button" onClick={this.toggleCatalog}>
+                            <h2 className="button-text" id="o-text">VIEW</h2>
                           </button>
                         </div>
                       </div>
@@ -232,8 +232,8 @@ constructor(props) {
                           </p>
                           </div>
                           <div className="proj-button-container">
-                          <button className="proj-button" onClick={this.toggleHeiarchy}>
-                              <h2 className="button-text">VIEW</h2>
+                          <button className="proj-button" id="o-button" onClick={this.toggleHeiarchy}>
+                              <h2 className="button-text" id="o-text">VIEW</h2>
                             </button>
                           </div>
                         </div>
@@ -299,8 +299,8 @@ constructor(props) {
 
         <div className="exit-container">
           <Reveal effect="fadeInUp">
-            <div onClick={this.props.action} className="exit-button">
-                <h2 className="button-text">X</h2>
+            <div onClick={this.props.action} id="o-button" className="exit-button">
+                <h2 className="button-text" id="o-text">X</h2>
             </div>
           </Reveal>
         </div>
