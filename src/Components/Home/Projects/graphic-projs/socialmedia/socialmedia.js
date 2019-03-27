@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import Reveal from 'react-reveal/Reveal';
+import ReactPlayer from 'react-player'
 
 import './socialmedia.css'
 
+import Story from './story-board.png'
 
 
 
-class Vespa extends Component {
+class SocialMedia extends Component {
 
 
     render(){
@@ -17,58 +19,32 @@ class Vespa extends Component {
 
 
                 <Reveal effect="fadeInUp">
-                    <div className="freestyle">
-                        <div className="freestyle-hero" >
-
-                        </div>
-
-                        
-                        <div className="freestyle-description">
-                            <div id="hundred-width">
-                                <p id="fs-description">THIS IS sm  is a mockapp where users can identify instruments within a song to 
-                                create new compositions. Project focused on UI/UX design and principles.
-                                </p>
-                            </div>
 
 
+                <div className='player-wrapper'>
+                    <ReactPlayer
+                    className='react-player'
+                    url='https://www.youtube.com/watch?v=T7_3XV272x4'
+                    width='100%'
+                    height='100%'
+                    />
+                </div>
 
-                            <div id="design-challenge">
-                                <h3 id="fs-heading"> Design Challenge </h3>
-                                <div id="hundred-width">
-                                    <p>Give the ability to deconstruct a composition down to its instuments in order to reimagine a new sound.</p>
-                                </div>
-                            </div>
+                <div className="sm-wrapper">
+              
 
+                    <h1 className="proj-heading">Social Media</h1>
 
-                            <div id="fs">
-
-                            </div>
-
-                            <div id="design-challenge">
-                                <h3 id="fs-heading">Competition Analysis</h3>
-                                <div id="hundred-width">
-                                <p>No current applications exist at time of creation. I drew inspiration from; FL Studio,
-                                    Garage Band, Spotify, Poweramp. These applications deal with music on the user
-                                    end as well as the production side. I meshed
-                                    qualities from these apps along with my ideas to create Freestyle.</p>
-                                </div>
-                            </div>
-
-                            <div className="bars">
-                                <div className="bar"><div id="bar1"></div></div>
-                                <div className="bar"><div id="bar2"></div></div>
-                                <div className="bar"><div id="bar3"></div></div>
-                                <div className="bar"><div id="bar4"></div></div>
-                            </div>
+                    <p className="proj-text">
+                    In my social media marketing class we were to create an Instagram story that incorporated the university’s journalism program. I curated a storyboard that featured an alum from the program. This alum would then be featured as the “Alumn of the Week.” I thought if I incorporated alumni for the series it would give current and future students a role model to aspire to. 
+                    </p>
 
 
-
-     
-
-                        </div>
+                    <div><img id="story" src={Story} alt="Instagram Story Board"/></div>
 
 
-                    </div>
+                </div>
+
                 </Reveal>   
 
                 <div className="exit-container-container">
@@ -86,4 +62,4 @@ class Vespa extends Component {
     }
 }
 
-export default Vespa;
+export default SocialMedia;

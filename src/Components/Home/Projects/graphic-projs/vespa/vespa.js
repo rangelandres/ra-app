@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 import Reveal from 'react-reveal/Reveal';
 
-import './vespa.css'
-
+import './vespa.css';
+import Logo from './vespalogo.png';
+import OldLogo from './old-logo.png';
+import Menu1 from './menu1.png';
+import Menu2 from './menu2.png';
+import Menu3 from './old1.png';
+import Menu4 from './old2.png';
 
 
 
@@ -17,58 +22,28 @@ class Vespa extends Component {
 
 
                 <Reveal effect="fadeInUp">
-                    <div className="freestyle">
-                        <div className="freestyle-hero" >
+                    <div className="vespa">
 
+                        <div className="vespa-container">
+                            <h1 className="proj-heading"> Red Vespa Rebrand</h1>
+
+                            <p className="proj-text">
+                            Logo redesign and brand identity for a pizza restaurant called “Red Vespa” located in Solon, IA.
+                            </p>
+
+                            <div><img id="vespa" src={Logo} alt="Vespa Logo"/></div>
+                            <div><img id="vespaM" src={Menu1} alt="Vespa Menu"/></div>
+                            <div><img id="vespaM" src={Menu2} alt="Vespa Menu2"/></div>
+                            <div><img id="vespa" src={OldLogo} alt="Vespa Original Logo"/></div>
+                            <div><img id="vespa" src={Menu3} alt="Vespa Original Menu"/></div>
+                            <div><img id="vespa" src={Menu4} alt="Vespa Original Menu 2"/></div>
+          
                         </div>
-
-                        
-                        <div className="freestyle-description">
-                            <div id="hundred-width">
-                                <p id="fs-description">THIS IS VESAP  is a mockapp where users can identify instruments within a song to 
-                                create new compositions. Project focused on UI/UX design and principles.
-                                </p>
-                            </div>
-
-
-
-                            <div id="design-challenge">
-                                <h3 id="fs-heading"> Design Challenge </h3>
-                                <div id="hundred-width">
-                                    <p>Give the ability to deconstruct a composition down to its instuments in order to reimagine a new sound.</p>
-                                </div>
-                            </div>
-
-
-                            <div id="fs">
-
-                            </div>
-
-                            <div id="design-challenge">
-                                <h3 id="fs-heading">Competition Analysis</h3>
-                                <div id="hundred-width">
-                                <p>No current applications exist at time of creation. I drew inspiration from; FL Studio,
-                                    Garage Band, Spotify, Poweramp. These applications deal with music on the user
-                                    end as well as the production side. I meshed
-                                    qualities from these apps along with my ideas to create Freestyle.</p>
-                                </div>
-                            </div>
-
-                            <div className="bars">
-                                <div className="bar"><div id="bar1"></div></div>
-                                <div className="bar"><div id="bar2"></div></div>
-                                <div className="bar"><div id="bar3"></div></div>
-                                <div className="bar"><div id="bar4"></div></div>
-                            </div>
-
-
-
      
 
                         </div>
 
 
-                    </div>
                 </Reveal>   
 
                 <div className="exit-container-container">

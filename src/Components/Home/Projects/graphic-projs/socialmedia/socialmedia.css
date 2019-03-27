@@ -8,3 +8,43 @@
 }
 
 .project::-webkit-scrollbar { width: 0 !important }
+
+
+.player-wrapper{
+    height: 60vh;
+    padding: 20vh 0 0 0;
+}
+
+.sm-wrapper{
+    padding: 10vh 5vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.story-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 20vh;   
+}
+
+#story{
+    border-radius: 3%;
+    width: 50vw;
+}
+
+@media only screen and (max-width: 600px) {
+    #story{
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+}

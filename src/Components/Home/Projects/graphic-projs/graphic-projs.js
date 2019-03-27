@@ -126,36 +126,9 @@ constructor(props) {
 
         {this.state.on &&
         <Slider {...settings}>
+
           <div>
-            <Zoom>
-            <div className="slider">
-                  <div className="a-slide">
-                    <div className="slide-img" id="gd-proj1">
-                      <div className="slide-overlay">
-                        <div className="proj-logo-container">
-                          <div>
-                          <h1></h1>
-                          </div>
-                        </div>
-                        <div className="pro-title-container">
-                          <h1>Instagram Story</h1>
-                        </div>
-                        <div className="proj-description-container">
-                          <p>Created an Instagram story for the Journalism Program at the University of Iowa</p>
-                        </div>
-                        <div className="proj-button-container">
-                          <button className="proj-button" id="g-button" onClick={this.toggleSM}>
-                            <h2 className="button-text" id="g-text">VIEW</h2>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </Zoom>
-          </div>
-          <div>
-            <Zoom delay={200}>
+            <Zoom >
                 <div className="slider">
                   <div className="a-slide">
                     <div className="slide-img" id="gd-proj2">
@@ -184,14 +157,13 @@ constructor(props) {
           </div>
 
           <div>
-            <Zoom delay={400}>
+            <Zoom delay={200}>
                 <div className="slider">
                     <div className="a-slide">
                       <div className="slide-img" id="gd-proj4">
                         <div className="slide-overlay">
                           <div className="proj-logo-container">
                             <div>
-                            <h1>coming soon</h1>
                             </div>
                           </div>
                           <div className="pro-title-container">
@@ -208,6 +180,35 @@ constructor(props) {
                         </div>
                       </div>
                     </div>
+                </div>
+            </Zoom>
+          </div>
+
+          <div>
+            <Zoom delay={400}>
+            <div className="slider">
+                  <div className="a-slide">
+                    <div className="slide-img" id="gd-proj1">
+                      <div className="slide-overlay">
+                        <div className="proj-logo-container">
+                          <div>
+                          <h1></h1>
+                          </div>
+                        </div>
+                        <div className="pro-title-container">
+                          <h1>IG Story</h1>
+                        </div>
+                        <div className="proj-description-container">
+                          <p>Created an Instagram story for the Journalism Program at the University of Iowa</p>
+                        </div>
+                        <div className="proj-button-container">
+                          <button className="proj-button" id="g-button" onClick={this.toggleSM}>
+                            <h2 className="button-text" id="g-text">VIEW</h2>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
             </Zoom>
           </div>

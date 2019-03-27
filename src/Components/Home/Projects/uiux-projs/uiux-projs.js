@@ -248,32 +248,7 @@ class UIUXProjs extends Component {
             </Zoom>
 
           </div>
-          <div>
-              <Zoom delay={200}>
-            <div className="slider">
-                <div className="a-slide">
-                  <div className="slide-img" id="uiux-proj5">
-                    <div className="slide-overlay">
-                      <div className="proj-logo-container">
-                        <div>
-                        </div>
-                      </div>
-                      <div className="pro-title-container">
-                        <h1>coming soon</h1>
-                      </div>
-                      <div className="proj-description-container">
-                        <p>
-                      </p>
-                      </div>
-                      <div className="proj-button-container">
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-            </Zoom>
-          </div>
+          
 
         </Slider>
         }

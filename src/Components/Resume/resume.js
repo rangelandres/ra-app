@@ -7,10 +7,10 @@ const Resume = () => (
         <div className="resume-container">
             <h1 id="main">Andres Rangel</h1>
             <h2>Chicago, IL</h2>
-            <h2><a href="mailto:ar@rangelandres.com?Subject=Hello!" target="_top">ar@rangelandres.com</a></h2>
+            <h2><a href="mailto:ar@andresrangel.dev?Subject=Hello!" target="_top">ar@andresrangel.dev</a></h2>
             <div className="seperator"></div>
             <div className="summary">
-                <p> I am a recent grad whose interests are in designing for the web, whether it be graphics, layouts, interactions, or experience. I have used HTML, CSS, JS, Adobe Creative Suite, and website builders to create my web designs.
+                <p>Hello!
                 </p>
             </div>
             <div className="experience">

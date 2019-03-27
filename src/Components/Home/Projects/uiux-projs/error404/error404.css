@@ -22,42 +22,121 @@ p {
 .project-freestyle::-webkit-scrollbar { width: 0 !important }
 
 
-.freestyle-container{
+.container{
     width: 100%;
     height:100%;
 }
 
-.freestyle{
+.error{
     height: 100%;
     margin-top: 30vh;
     margin-bottom: 30vh;
 
 }
 
-.freestyle-hero{
-    height: 20vh;
+.error-cover{
+    width: 100%;
+    height: 99vh;
+    background-image: url('./error404-cover.png');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.proj-heading {
+    font-size: 2.3em;
+    margin-bottom: 2vh;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.proj-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+.proj-text{
+    color: white;
+    text-align: center;
+}
+
+.proj-imgs{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
-}
-
-#fs-name{
-    margin-left: -8vw;
-}
-
-.freestyle-description{
-    height: auto;
-    display: flex;
-    justify-content: center;
-    margin-top: 10vh;
-    color: white;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-top: 10vh;
 }
 
+#error-sketch{
+    margin-bottom: 10vh;
+}
 
+/* The device with borders */
+.smartphone {
+    position: relative;
+    width: 50vw;
+    height: 640px;
+    margin: auto;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+  }
+  
+  /* The horizontal line on the top of the device */
+  .smartphone:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 10px;
+  }
+  
+  /* The circle on the bottom of the device */
+  .smartphone:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 50%;
+  }
+  
+  /* The screen (or content) of the device */
+  .smartphone .content {
+    width: 50vw;
+    height: 640px;
+    background: white;
+    overflow-y: scroll;
+    overflow-x: none;
+  }
 
+  #error-page{
+      width: 100%;
+      height: 100%;
+  }
 
 .exit-container-project{
     position: fixed;
@@ -103,5 +182,19 @@ p {
 }
   
 @media only screen and (max-width: 600px) {
+    #error-sketch{
+        width: 100%;
+
+    }
+    .smartphone {
+        width: 80vw;
+        height: 440px;
+
+      }
+    .smartphone .content {
+        width: 80vw;
+        height: 440px;
+
+      }
 
 }

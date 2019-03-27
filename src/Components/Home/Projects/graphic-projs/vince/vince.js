@@ -3,8 +3,12 @@ import Reveal from 'react-reveal/Reveal';
 
 import './vince.css'
 
-
-
+import FishPrint1 from './fish-print2.png';
+import FishPrint2 from './fish-print1.png';
+import Model1 from './model1.png';
+import Model2 from './model2.png';
+import Fish1 from './fish1.png';
+import Fish2 from './fish2.png';
 
 class Vespa extends Component {
 
@@ -17,55 +21,25 @@ class Vespa extends Component {
 
 
                 <Reveal effect="fadeInUp">
-                    <div className="freestyle">
-                        <div className="freestyle-hero" >
+                    <div className="bigfish">
 
-                        </div>
+                    <div className="bigfish-container">
+                        <h1 className="proj-heading">Album Rebrand</h1>
 
-                        
-                        <div className="freestyle-description">
-                            <div id="hundred-width">
-                                <p id="fs-description">THIS IS vince  is a mockapp where users can identify instruments within a song to 
-                                create new compositions. Project focused on UI/UX design and principles.
-                                </p>
-                            </div>
+                        <p className="proj-text">
+                        I rebranded Vince Staples’ “Big Fish Theory” album in the form of a cassette tape. This cassette tape came with special packaging and extra materials.
+                        </p>
 
+                        <div><img id="fishprint" src={FishPrint1} alt="Fish Print 1"/></div>
+                        <div><img id="fishprint" src={FishPrint2} alt="Fish Print 2"/></div>
+                        <div><img id="fishprint" src={Model1} alt="Fish Print 2"/></div>
+                        <div><img id="fishprint" src={Model2} alt="Fish Print 2"/></div>
+                        <div><img id="fishprint" src={Fish1} alt="Fish Print 2"/></div>
+                        <div><img id="fishprint" src={Fish2} alt="Fish Print 2"/></div>
 
+                    </div>
+                    
 
-                            <div id="design-challenge">
-                                <h3 id="fs-heading"> Design Challenge </h3>
-                                <div id="hundred-width">
-                                    <p>Give the ability to deconstruct a composition down to its instuments in order to reimagine a new sound.</p>
-                                </div>
-                            </div>
-
-
-                            <div id="fs">
-
-                            </div>
-
-                            <div id="design-challenge">
-                                <h3 id="fs-heading">Competition Analysis</h3>
-                                <div id="hundred-width">
-                                <p>No current applications exist at time of creation. I drew inspiration from; FL Studio,
-                                    Garage Band, Spotify, Poweramp. These applications deal with music on the user
-                                    end as well as the production side. I meshed
-                                    qualities from these apps along with my ideas to create Freestyle.</p>
-                                </div>
-                            </div>
-
-                            <div className="bars">
-                                <div className="bar"><div id="bar1"></div></div>
-                                <div className="bar"><div id="bar2"></div></div>
-                                <div className="bar"><div id="bar3"></div></div>
-                                <div className="bar"><div id="bar4"></div></div>
-                            </div>
-
-
-
-     
-
-                        </div>
 
 
                     </div>
