@@ -192,7 +192,6 @@ constructor(props) {
                       <div className="slide-overlay">
                         <div className="proj-logo-container">
                           <div>
-                          <h1></h1>
                           </div>
                         </div>
                         <div className="pro-title-container">
