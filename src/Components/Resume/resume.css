@@ -59,7 +59,7 @@ a {
 }
 
 .skills{
-    margin-top: 10vh;
+    margin-top: 5vh;
 
 }
 
@@ -77,8 +77,12 @@ a {
     align-content: center;
     align-items: center;
     margin-bottom: 5vh;
-    
+    transition: .3s ease;
 }
+.resume-download:hover{
+    border: 5px solid black;
+    transition: .3s ease;
+}   
 
 .skill-container{
     width: 100%;
