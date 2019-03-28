@@ -14,11 +14,29 @@
     flex-wrap: wrap;
     flex-direction: column;
 }
-
+#hundred{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
 #vespa{
     width: 100%;
+    margin-top: 5vh;
 }
 
 #vespaM{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
     width: 50%;
 }
+
+@media only screen and (max-width: 600px) {
+    #vespaM{
+        width:100%;
+    }
+}
+

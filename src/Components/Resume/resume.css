@@ -21,18 +21,26 @@ a {
     text-decoration: none;
 }
 
+#mright{
+    margin-left: 2vw;
+}
+
 .resume{
     background-color: white;
-    height: 100vh;
+    height: 100%;
     position: relative;
 }
 
 .resume-container{
-    height: 130%;
+    height: auto;
     margin-top: 30vh;
     margin-left: 12.5%;
     margin-right: 12.5%;
+    margin-bottom: 20vh;
+
 }
+
+
 
 .seperator{
     height: 3vh;
@@ -53,4 +61,8 @@ a {
 .skills{
     margin-top: 10vh;
 
+}
+
+.content{
+    margin-top: 2vh;
 }

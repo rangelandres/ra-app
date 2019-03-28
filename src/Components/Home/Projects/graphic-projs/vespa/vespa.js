@@ -31,9 +31,11 @@ class Vespa extends Component {
                             Logo redesign and brand identity for a pizza restaurant called “Red Vespa” located in Solon, IA.
                             </p>
 
-                            <div><img id="vespa" src={Logo} alt="Vespa Logo"/></div>
-                            <div><img id="vespaM" src={Menu1} alt="Vespa Menu"/></div>
-                            <div><img id="vespaM" src={Menu2} alt="Vespa Menu2"/></div>
+                            <div><img src={Logo} alt="Vespa Logo"/></div>
+                            <div id="hundred"><div><img id="vespaM" src={Menu1} alt="Vespa Menu"/></div></div>
+                            <div id="hundred"><div><img id="vespaM" src={Menu2} alt="Vespa Menu2"/></div></div>
+                            
+                            <h1 className="proj-heading"> Red Vespa Original</h1>
                             <div><img id="vespa" src={OldLogo} alt="Vespa Original Logo"/></div>
                             <div><img id="vespa" src={Menu3} alt="Vespa Original Menu"/></div>
                             <div><img id="vespa" src={Menu4} alt="Vespa Original Menu 2"/></div>
