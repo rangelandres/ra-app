@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Lexia';
+    src: url('Lexia-Black.eot');
+    src: url('Lexia-Black.eot?#iefix') format('embedded-opentype'),
+        url('Lexia-Black.woff2') format('woff2'),
+        url('Lexia-Black.woff') format('woff'),
+        url('Lexia-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexia';
+    src: url('Lexia-BlackItalic.eot');
+    src: url('Lexia-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Lexia-BlackItalic.woff2') format('woff2'),
+        url('Lexia-BlackItalic.woff') format('woff'),
+        url('Lexia-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+

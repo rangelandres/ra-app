@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
 
 @font-face {
-  font-family: 'Lexia-Black-Italic';
-  src: url('./fonts/Lexia-BlackItalic_0.ttf');
+  font-family: 'Lexia-Black';
+  src: url('./fonts/Lexia-Black.eot');
+  src: url('./fonts/Lexia-Black.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/Lexia-Black.woff2') format('woff2'),
+      url('./fonts/Lexia-Black.woff') format('woff'),
+      url('./fonts/Lexia-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Lexia-Black';
-  src: url('./fonts/Lexia-Black_0.ttf');
+  font-family: 'Lexia-Black-Italic';
+  src: url('./fonts/Lexia-BlackItalic.eot');
+  src: url('./fonts/Lexia-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/Lexia-BlackItalic.woff2') format('woff2'),
+      url('./fonts/Lexia-BlackItalic.woff') format('woff'),
+      url('./fonts/Lexia-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
 }
 
 *{
@@ -83,3 +95,4 @@ p {
     transform: rotate(360deg);
   }
 }
+

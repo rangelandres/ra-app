@@ -67,7 +67,7 @@ class Freestyle extends Component {
 
 
                             <div id="design-challenge">
-                                <h3 id="fs-heading"> Design Challenge </h3>
+                                <h3 className="proj-heading"> Design Challenge </h3>
                                 <div id="hundred-width">
                                     <p>Give the ability to deconstruct a composition down to its instuments in order to reimagine a new sound.</p>
                                 </div>
@@ -81,7 +81,7 @@ class Freestyle extends Component {
                             </div>
 
                             <div id="design-challenge">
-                                <h3 id="fs-heading">Competition Analysis</h3>
+                                <h3 className="proj-heading">Competition Analysis</h3>
                                 <div id="hundred-width">
                                 <p>No current applications exist at time of creation. I drew inspiration from; FL Studio,
                                     Garage Band, Spotify, Poweramp. These applications deal with music on the user
@@ -100,7 +100,7 @@ class Freestyle extends Component {
                             <div className="target-audience">
                                 <div id="user">
                                     <div>
-                                        <h3 id="fs-heading">Target Audience</h3>
+                                        <h3 className="proj-heading">Target Audience</h3>
                                     </div>
                                     <div>
                                         <img id="fs-logo" src={user} alt="Freestyle Logo"/>
@@ -134,7 +134,7 @@ class Freestyle extends Component {
 
                             <div className="fs-brand">
                                 <div>
-                                    <h3 id="fs-heading">Brand Strategy</h3>
+                                    <h3 className="proj-heading">Brand Strategy</h3>
                                     <div id="hundred-width">
                                     <p>Freestyle carries a simplistic modern
                                         lifestyle. The colors consist of Blue, Violet,
@@ -192,13 +192,13 @@ class Freestyle extends Component {
                             </div>
 
                             <div className="fs-sitemap">
-                                <div><h3  id="fs-heading">Sitemap</h3></div>
+                                <div><h3 className="proj-heading">Sitemap</h3></div>
                                 <div><img id="sitemap" src={siteMap} alt="Sitemao"/></div>
                             </div>
 
                             <div className="fs-low-slider">
                                 <div id="fs-slider-title">
-                                    <h3 id="fs-heading"> Low Fidelity</h3>
+                                    <h3 className="proj-heading"> Low Fidelity</h3>
                                 </div>
                                 <Slider {...settings2}>
                                     <div className="low-container">
@@ -220,10 +220,10 @@ class Freestyle extends Component {
 
                             <div className="fs-low-slider">
                                 <div id="fs-slider-title">
-                                    <h3 id="fs-heading"> Mid Fidelity</h3>
+                                    <h3 className="proj-heading"> Mid Fidelity</h3>
                                 </div>
                                 <Slider {...settings2}>
-                                    <div className="mid-container">
+                                    <div className="low-container">
                                         <div><img id="mid" src={mid1} alt="Mid Fidelity"/></div>
                                     </div>
                                     <div className="low-container">
@@ -246,7 +246,7 @@ class Freestyle extends Component {
 
                             <div className="fs-low-slider">
                                 <div id="fs-slider-title">
-                                    <h3 id="fs-heading"> Final</h3>
+                                    <h3 className="proj-heading"> Final</h3>
                                 </div>
                                 <Slider {...settings2}>
                                     <div className="final-container">
