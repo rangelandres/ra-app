@@ -11,6 +11,7 @@
   font-style: normal;
 }
 
+
 @font-face {
   font-family: 'Lexia-Black-Italic';
   src: url('./fonts/Lexia-BlackItalic.eot');
@@ -18,8 +19,6 @@
       url('./fonts/Lexia-BlackItalic.woff2') format('woff2'),
       url('./fonts/Lexia-BlackItalic.woff') format('woff'),
       url('./fonts/Lexia-BlackItalic.ttf') format('truetype');
-  font-weight: 900;
-  font-style: italic;
 }
 
 *{
