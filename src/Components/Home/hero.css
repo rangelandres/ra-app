@@ -16,7 +16,9 @@ a:active path {
     fill: black;
 }
 
-
+#git{
+  padding-bottom: 1%;
+}
 
 @keyframes bounceIn {
   from,
