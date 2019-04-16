@@ -64,7 +64,18 @@ class Freestyle extends Component {
                                 </p>
                             </div>
 
+                            <div id="hundred-width">
+                                <a  id="link-web" href="https://invis.io/KYNTCRNE9RM" target="_blank" rel="noopener noreferrer">
+                                <p className="proj-text" id="site-link">Link to phone prototype</p>
+                                </a>
+                            </div>
 
+                            <div id="hundred-width">
+
+                            <a id="link-web" href="https://invis.io/BCNTD1VRMX5" target="_blank" rel="noopener noreferrer">
+                            <p className="proj-text" id="site-link">Link to wearable prototype</p>
+                            </a>
+                            </div>
 
                             <div id="design-challenge">
                                 <h3 className="proj-heading"> Design Challenge </h3>

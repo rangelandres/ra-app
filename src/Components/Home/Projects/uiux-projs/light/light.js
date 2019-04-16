@@ -25,6 +25,12 @@ class Light extends Component {
                             <p className="proj-text">I created a Webflow website that calls for action to reduce everyone’s carbon footprint.
                             </p>
 
+                            <div id="hundred-width">
+                            <a id="link-web2" href="https://projectlighthouse.andresrangel.dev/" target="_blank" rel="noopener noreferrer">
+                            <p className="proj-text"> Project Lighthouse</p>
+                            </a>
+                            </div>
+
                             <h1 className="proj-heading">Layout</h1>
                             <div id="mtop"><img id="light-img" src={Layout} alt="Project Layout"/></div>
                             <h1 className="proj-heading">Cause Board</h1>

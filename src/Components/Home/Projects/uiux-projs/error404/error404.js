@@ -27,7 +27,13 @@ class Error404 extends Component {
 
                             <p className="proj-text">I designed a responsive infographic. I chose to show some facts on net neutrality and the internet. I used Adobe Muse to put my design together.</p>
                         </div>
-                        
+
+                        <div id="hundred-width">
+                        <a href="https://error404.andresrangel.dev/" target="_blank" rel="noopener noreferrer">
+                        <p className="proj-text" id="site-link">Link to Error404</p>
+                        </a>
+                        </div>
+
                         <div className="proj-imgs">
                         <div><img id="error-sketch" src={Error1} alt="Error 404 Sketch 1"/></div>
                         <div><img id="error-sketch" src={Error2} alt="Error 404 Sketch 1"/></div>

@@ -31,8 +31,13 @@ class Shift extends Component {
 
                             <p className="proj-text">
                             Redesign for a Shopify webstore. Shift is a small clothing company based in Minneapolis. 
-
                             </p>
+
+                           
+                            <a href="https://www.shiftyourmindclothing.com/" target="_blank" rel="noopener noreferrer">
+                            <p className="proj-text" id="site-link">Link to site</p>
+                            </a>
+
                         </div>
 
                         
