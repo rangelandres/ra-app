@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router} from 'react-router-dom';
+import {HashRouter as Router} from 'react-router-dom';
 
 import Navbars from './Components/Navbar/navbars';
 import Container from './Components/Container/container';
 
 import './App.css';
+
 import ScrollToTop from './scroll'
 
 

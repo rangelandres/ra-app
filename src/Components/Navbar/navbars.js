@@ -9,7 +9,7 @@ const Navbars = () => (
             <div className="top-nav">
             <div>
                 <div className="logo">
-                    <Link to="/">
+                    <a href="https://andresrangel.dev/#/">
                         <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'>
                             <g id='Layer_15' data-name='Layer 15'>
                                 <path d='M143.5,75.5a15,15 0 1,0 30,0a15,15 0 1,0 -30,0'/>
@@ -19,7 +19,7 @@ const Navbars = () => (
                                 />
                             </g>
                         </svg>
-                    </Link>
+                        </a>
                 </div>
             </div>
         
