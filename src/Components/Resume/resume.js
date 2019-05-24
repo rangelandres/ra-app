@@ -20,12 +20,41 @@ const Resume = () => (
                 </a>
             </div>
             <div className="experience">
-                <h1 id="submain">Freelance Web Designer</h1>
+                <h1 id="submain">Freelance Designer // Developer</h1>
                 <h3>May 2018 -  <i>present</i></h3>
+
                 <div className="content">
+                    <h2 id="c-name">shift.</h2>
                     <p><a href="https://www.shiftyourmindclothing.com/" target="_blank" rel="noopener noreferrer">shiftyourmindclothing.com</a></p>
-                    <p>» Designed a Shopify store for a small buisness in Minneapolis.</p>
-                    <p>» Landing page, theme, and CSS animations.</p>
+                    <h5 id="location"> MN, Minneapolis</h5>
+                    <p>» Re-designed Shopify store to fit brand guide.</p>
+                    <p>» Created landing page, CSS logo animation, and styles</p>
+                    <p>» Standalone webstore in development.</p>
+                </div>
+
+                <div className="content">
+                    <h2 id="c-name">The Whole Food Nut</h2>
+                    <p><a href="https://thewholefoodnut.com/" target="_blank" rel="noopener noreferrer">thewholefoodnut.com</a></p>
+                    <h5 id="location"> CA, Los Angeles</h5>
+                    <p>» Assist in content deployment.</p>
+                    <p>» Website and server maintenance.</p>
+                    <p>» Update Google services.</p>
+                </div>
+
+                <div className="content">
+                    <h2 id="c-name">Imarie Lopez Productions</h2>
+                    <p><a href="https://imarielopez.com/" target="_blank" rel="noopener noreferrer">imarielopez.com</a></p>
+                    <h5 id="location"> NY, New York</h5>
+                    <p>» Designed and developed the website.</p>
+                    <p>» Headless WordPress with ReactJS.</p>
+                    <p>» Webmaster: SSL, webtraffic, maintenance, security, etc.</p>
+                </div>
+
+                <div className="content">
+                    <h2 id="c-name">Chew On This Meal Prep/Catering</h2>
+                    <h5 id="location"> IL, Chicago</h5>
+                    <p>» Designed flyers and menus.</p>
+                    <p>» Webpage in development.</p>
                 </div>
 
             </div>
