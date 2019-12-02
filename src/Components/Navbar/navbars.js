@@ -27,7 +27,7 @@ const Navbars = () => (
         
         <Link to="/resume">
         <ul className="side-nav">
-        <li><h3>resume</h3></li>
+        <li><h3>resumé</h3></li>
         </ul>
         </Link>
     </div>

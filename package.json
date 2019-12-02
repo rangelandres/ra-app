@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "lottie-react-web": "^2.1.4",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-player": "^1.9.3",
